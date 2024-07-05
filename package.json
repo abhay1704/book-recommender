@@ -1,0 +1,23 @@
+{
+  "name": "book-recommender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel templates/main.html",
+    "build": "parcel build templates/home.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.24.7",
+    "iscroll": "^5.2.0",
+    "overscroll": "^0.0.39"
+  }
+}

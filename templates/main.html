@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../static/css/material-theme/css/light-hc.css"
+    />
+    <link rel="stylesheet" href="../static/css/home.css" />
+    <link rel="stylesheet" href="../static/css/homepage.css" />
+    <link rel="stylesheet" href="../static/css/responsiveness.css">
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/overscroll"></script> -->
+    <script defer type="module" src="../static/js/main.js"></script>
+    <title>Book Recommender</title>
+  </head>
+  <body>
+    <div id="whole-content">
+      <header>
+        <nav>
+          <div class="logo">
+            <a href="#">Book Recommender</a>
+          </div>
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#top50">Top 50</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#features-section">Features</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="introduction">
+        <section id="hero-section">
+          <div class="floating-icon"></div>
+          <div class="floating-icon"></div>
+          <div class="floating-icon"></div>
+          <div class="floating-icon"></div>
+          <div id="hero-content">
+            <h1 class="oswald-bold typing">
+              Your Gateway to Literary Adventures
+            </h1>
+            <p>
+              Embark on a literary adventure and uncover stories that will
+              captivate your imagination. Dive into our top picks and discover
+              your next favorite book today!
+            </p>
+            <div class="btns btns--nav">
+              <div class="btn-wrapper">
+                <a href="#top50" class="btn main-btn btn--nav">Top 50 books</a>
+              </div>
+              <div class="btn-wrapper">
+                <a href="#about" class="btn main-btn btn--nav">About</a>
+              </div>
+            </div>
+          </div>
+          <div class="banner">
+            <img src="../static/images/banner.png" alt="hero-banner" />
+          </div>
+        </section>
+        <section id="about">
+          <div class="about-content">
+            <div class="header">
+              <h2>About</h2>
+              <h2>The Recommend System</h2>
+            </div>
+            <p>
+              Book Recommender is a platform where you can find the best books
+              to read. We have a collection of books from various genres.
+            </p>
+          </div>
+          <div class="main-content">
+            <div class="illustration">
+              <img src="../static/images/book-illustration.png" alt="about" />
+            </div>
+            <div class="content">
+              <h2>The <br />Recoendo Web</h2>
+              <div class="about">
+                <div class="author-label label">Author</div>
+                <div class="author">Abhay Pratap</div>
+                <div class="total-label label">Total Data</div>
+                <div class="total">1000 Users</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section id="top50">
+        <h2>Top 50 Books</h2>
+        <p>Here you will find TOP 50 Most sold books of all time...</p>
+        <!-- Book Cards -->
+        <div class="book-cards">
+          <!-- First Book Card -->
+          <div class="book-card">
+            <div class="book-image">
+              <img src="../static/images/book-icon.png" alt="book1" />
+            </div>
+            <div class="book-details">
+              <div class="card-front">
+                <span class="book-header">
+                  <h3>Harry Potter and the Sorcerer's Stone (Book 1)</h3>
+                  <span class="price">Rs 200</span>
+                </span>
+                <p>A Fictional Novel by J. K. Rowling</p>
+              </div>
+              <div class="card-back">
+                <a
+                  href="#"
+                  data-url="/home.html?book=Harry%20Potter%20and%20the%20Sorcerer%27s%20Stone%20%28Book%201%29"
+                  class="btn main-btn book-referrer"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Second Book Card -->
+          <div class="book-card">
+            <div class="book-image">
+              <img src="../static/images/book-icon.png" alt="book2" />
+            </div>
+            <div class="book-details">
+              <div class="card-front">
+                <span class="book-header">
+                  <h3>To Kill a Mockingbird</h3>
+                  <span class="price">Rs 200</span>
+                </span>
+                <p>A Fictional Novel by Harper Lee</p>
+              </div>
+              <div class="card-back">
+                <a
+                  href="#"
+                  data-url="/home.html?book='To%20Kill%20a%20Mockingbird'"
+                  class="btn main-btn book-referrer"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Third Book Card -->
+          <div class="book-card">
+            <div class="book-image">
+              <img src="../static/images/book-icon.png" alt="book3" />
+            </div>
+            <div class="book-details">
+              <div class="card-front">
+                <span class="book-header">
+                  <h3>The Alchemist: A Fable About Following Your Dream</h3>
+                  <span class="price">Rs 200</span>
+                </span>
+                <p>A fable by Paulo Coelho</p>
+              </div>
+              <div class="card-back">
+                <a
+                  href="home.html"
+                  data-url="/home.html?book='Alchemist:%20A%20Fable%20About%20Following%20Your%20Dream'"
+                  class="btn main-btn"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- View More Button -->
+          <div id="view-more-books" class="btn main-btn">
+            <a href="./top50.html">&#8250;</a>
+          </div>
+        </div>
+        <!-- Book Cards Over -->
+      </section>
+      <section id="features-section">
+        <div class="feature-content">
+          <h2>What's There in Book Recommendation Website</h2>
+          <p>
+            Explore a curated collection of books tailored to your tastes and
+            preferences.
+          </p>
+          <ul id="features">
+            <li class="feature">Top 50 books of all time</li>
+            <li class="feature">
+              Collaborative filtering to get book suggestions based on each
+              choice
+            </li>
+            <li class="feature">
+              Specific details including author information, book synopsis, and
+              preview
+            </li>
+            <li class="feature">
+              Availability links for Amazon and Google Books
+            </li>
+            <li class="feature">
+              AI-generated summaries of books (coming soon)
+            </li>
+          </ul>
+        </div>
+        <div class="img">
+          <img src="../static/images/illustration-book.png" alt="feature" />
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-card">
+          <div class="floating-icon" style="display: none"></div>
+          <div class="floating-icon"></div>
+          <div class="floating-icon" style="display: none"></div>
+          <div class="floating-icon"></div>
+          <p>CONTACT ME</p>
+          <h1>For any suggestions, feel free to contact me at</h1>
+          <a href="mailto:gdabps@gmail.com" id="email-me-btn"
+            >Email Me &#8594;</a
+          >
+          <div class="profile-img">
+            <img src="../static/images/dev-icon.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-content">
+          <p>&copy; 2024 Book Recommender. All rights reserved.</p>
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/abps"
+              ><img src="../static/images/linkedin.svg" alt="linkedin"
+            /></a>
+            <a href="https://github.com/abhay1704"
+              ><img src="../static/images/github.svg" alt="github"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,298 @@
+body {
+  padding-bottom: 100px;
+}
+
+#main-header {
+  background-color: var(--md-sys-color-inverse-surface);
+  color: var(--md-sys-color-on-primary);
+  padding: 40px 0;
+  text-align: center;
+}
+
+#top-50 {
+  display: flex;
+  width: 100%;
+
+  .filters {
+    flex: 1;
+    padding: 20px;
+    align-items: left;
+  }
+  .contents {
+    flex: 3;
+    padding: 20px;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.result-per-page input {
+  width: 50%;
+  padding: 10px 0;
+  background-color: transparent;
+  border: none;
+}
+
+.pagination__btns {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  width: 100%;
+  gap: 10px;
+}
+
+.pagination__btn {
+  /* padding: 15px; */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--md-sys-color-primary-container);
+  background-color: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pagination__btn:hover {
+  background-color: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+}
+
+.pagination__btn--active {
+  background-color: var(--md-sys-color-on-primary) !important;
+  color: var(--md-sys-color-primary) !important;
+  border-width: 2px;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  padding: 15px;
+}
+
+.book {
+  max-width: 400px;
+  min-width: 250px;
+  flex: 1;
+  border-radius: 5px;
+  /* overflow: hidden; */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 1px 2px 20px var(--md-sys-color-shadow);
+  background-color: var(--md-sys-color-surface-container-lowest);
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.book-cover {
+  width: 100%;
+  height: 100% !important;
+  overflow: hidden;
+  border-radius: 10px;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.price {
+  padding: 15px 0;
+  border-bottom: 2px solid rgba(94, 94, 94, 0.476);
+}
+
+.price-inputs {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+
+  span:nth-child(1) {
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+  }
+
+  span:last-child {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+  }
+
+  input {
+    width: 70%;
+    padding: 7px;
+    border: 1px solid var(--md-sys-color-outline);
+    position: relative;
+  }
+}
+
+#btn-wrapper-filter {
+  display: inline-block;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  padding: 15px 0;
+  text-align: left;
+  border-bottom: 2px solid rgba(94, 94, 94, 0.476);
+  position: relative;
+}
+
+li::after {
+  content: "\002B";
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  right: 0;
+  font-size: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+select,
+select:active,
+select:focus,
+select:hover,
+option {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.book-cover {
+  width: 100%;
+  height: 400px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.book:hover {
+  transform: rotateY(180deg);
+}
+
+.book-info {
+  padding: 15px;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.book-author {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #222222c8;
+}
+
+.card-back .btn {
+  color: var(--md-sys-color-primary);
+  border-color: var(--md-sys-color-primary);
+}
+
+.card-back .btn:hover {
+  background-color: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-bottom: 50px;
+  }
+
+  #main-header {
+    padding: 20px 0;
+  }
+
+  #top-50 {
+    flex-direction: column;
+  }
+
+  .filters,
+  .contents {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .result-per-page input,
+  .price-inputs input {
+    width: 100%;
+  }
+
+  .books {
+    gap: 30px;
+  }
+
+  .book {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .book-cover img,
+  .book-info,
+  .book-author,
+  .card-back .btn {
+    width: 100%;
+    height: auto;
+  }
+
+  .pagination__btns {
+    gap: 5px;
+  }
+
+  .pagination__btn {
+    width: 25px;
+    height: 25px;
+  }
+
+  .price,
+  .price-inputs,
+  ul,
+  li {
+    padding: 10px 0;
+  }
+
+  li::after {
+    font-size: 1.5rem;
+  }
+}

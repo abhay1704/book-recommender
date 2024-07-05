@@ -1,0 +1,8 @@
+node_modules
+*.log
+dist/
+build/
+.cache/
+static/js/config.js
+.parcel-cache/
+__pycache__/

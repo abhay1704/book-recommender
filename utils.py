@@ -2,7 +2,9 @@ import json
 import numpy as np
 import pickle
 from werkzeug.exceptions import BadRequest, NotFound
+import requests
 
+BGREMOVER_APIKEY = "TE3bb3MkxCZL5tdC1atkoYgj"
 
 with open('all_books.json', 'r') as f:
     all_books = json.load(f)
@@ -38,4 +40,30 @@ def recommend(book_name, k):
 
 def list_books():
     return json.dumps(list(all_books.keys()))
+
+def removeBg(file_path):
+    # Download and Save file from link to server
+    req = requests.get(file_path)
+    file_path = "temp.png"
+    with open(file_path, 'wb') as f:
+        f.write(req.content)
+        f.close()
+
+    # use saved file to make request to remove.bg
+
+    response = requests.post(
+        'https://api.remove.bg/v1.0/removebg',
+        files={'image_file': open(file_path, 'rb')},
+        data={'size': 'auto'},
+        headers={'X-Api-Key': BGREMOVER_APIKEY},
+    )
+
+    final_path = 'static/images/no-bg.png'
+    if response.status_code == requests.codes.ok:
+        with open(final_path, 'wb') as out:
+            out.write(response.content)
+    else:
+        print("Error:", response.status_code, response.text)
+    
+    return final_path
 
