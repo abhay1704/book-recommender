@@ -2,11 +2,11 @@
   "name": "book-recommender",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel templates/main.html",
-    "build": "parcel build templates/home.html"
+    "start": "parcel templates/index.html",
+    "build": "parcel build --public-url dist/ templates/index.html",
+    "build-book": "parcel build --public-url ../dist/ templates/home.html"
   },
   "keywords": [],
   "author": "",

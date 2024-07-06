@@ -1,4 +1,4 @@
-import { getData } from "./api.js";
+import { getData, removeBackground } from "./api.js";
 import {
   getElement,
   getElements,
@@ -31,8 +31,12 @@ function setAuthorData(authors) {
         return;
       }
       setElementText(".author-name", authorData.name);
-      if (authorData.image)
-        getElement("#author-img img").src = authorData.image;
+      if (authorData.image) {
+        removeBackground(authorData.image, 'author_image').then((image) => {
+          const url = URL.createObjectURL(image);
+          getElement("#author-img img").src = url;
+        });
+      }
       getElement("#about-author .content p").textContent = authorData.bio;
       getElement(".author-url").href = authorData.url;
     })
@@ -114,7 +118,7 @@ export const setWebpageData = (data) => {
   getElements(".genre").forEach((x) => (x.textContent = genre));
   getElements(".sub-genre").forEach((x) => (x.textContent = subgenre));
   getElement("#description").innerHTML = description;
-  setBookCoverImage(image);
+  setBookCoverImage(thumbnail);
 
   renderMockup(thumbnail);
   setAuthorData(authors);

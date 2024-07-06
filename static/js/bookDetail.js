@@ -2,13 +2,13 @@ import {
   initScrollHandler,
   elasticScroll,
   navScroller,
-  scrollReveal
+  scrollReveal,
 } from "./scrollHandler.js";
 import { initStarRating } from "./starRating.js";
 import { getBook, setWebpageData } from "./bookHandler.js";
 import { getElement, setError } from "./domUtils.js";
 
-const spinner = `<div id="spinner1"></div>`;
+const spinner = `<div class="loader"></div>`;
 
 document.addEventListener("DOMContentLoaded", () => {
   initScrollHandler();
@@ -27,13 +27,13 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       setWebpageData(data);
       setTimeout(() => {
-        getElement("#spinner1").style.display = "none";
+        getElement(".loader").style.display = "none";
         getElement("#whole-content").style.display = "block";
-      }, 500);
+      }, 2500);
     })
     .catch((error) => {
       setError(error, "body");
-      getElement("#spinner1").style.display = "none";
+      getElement(".loader").style.display = "none";
       getElement("#whole-content").style.display = "none";
     });
 });

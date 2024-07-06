@@ -1,3 +1,5 @@
+import { API_CONFIG } from "./config.js";
+
 const timer = (ms) =>
   new Promise((_, rej) =>
     setTimeout(
@@ -38,4 +40,17 @@ export const postData = async (url, data) => {
   } catch (error) {
     throw error;
   }
+};
+
+export const removeBackground = async (image_url, file_name) => {
+  const url = `${API_CONFIG.BGREMOVER}?file_path=${image_url}&file_name=${file_name}`;
+
+  try {
+    const response = await fetch(url);
+    const data = await response;
+    if (!response.ok) {
+      throw new Error(data.message);
+    }
+    return response.blob();
+  } catch (error) {}
 };

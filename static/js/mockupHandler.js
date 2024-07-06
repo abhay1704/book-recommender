@@ -1,18 +1,6 @@
 import { API_CONFIG } from "./config.js";
 import { getData } from "./api.js";
-
-export const removeBackground = async (image_url) => {
-  const url = `${API_CONFIG.BGREMOVER}?file_path=${image_url}`;
-
-  try {
-    const response = await fetch(url);
-    const data = await response;
-    if (!response.ok) {
-      throw new Error(data.message);
-    }
-    return response.blob();
-  } catch (error) {}
-};
+import { removeBackground } from "./api.js";
 
 export const renderMockup = async (image_url) => {
   image_url = image_url.replace("http://", "https://");
@@ -49,7 +37,7 @@ export const renderMockup = async (image_url) => {
       throw new Error(data.message);
     }
 
-    const mockupImage = await removeBackground(data.url);
+    const mockupImage = await removeBackground(data.url, "mockup_image");
     const mockupURL = URL.createObjectURL(mockupImage);
     document.querySelectorAll(".book-img img").forEach((bookImage) => {
       bookImage.src = mockupURL;

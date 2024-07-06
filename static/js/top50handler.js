@@ -20,7 +20,7 @@ const bookScript = (name, authorName, imageUrl) =>
         <div class="book-info card-back">
             <h3 class="book-title ">${name}</h3>
             <p class="book-author">${authorName}</p>
-            <a href="#" data-url="/home.html?book=${encodeURIComponent(
+            <a href="#" data-url="/book?book=${encodeURIComponent(
               name
             )}" class="btn btn-primary">Read More</a>
         </div>

@@ -142,3 +142,19 @@ export function scrollReveal() {
     revealObserver.observe(element);
   });
 }
+
+export const removeBookHandler = () => {
+  const book = getElement(".book-img");
+  const removeBook = () => {
+    book.style.transform = "rotateZ(20deg) translateX(100%)";
+  };
+  const addBook = () => {
+    book.style.transform = "";
+  };
+
+  const homeObserver = new IntersectionObserver(([entry, ..._]) => {
+    if (entry.isIntersecting) removeBook();
+  });
+
+  homeObserver.observe(getElement("#target"));
+};

@@ -39,21 +39,27 @@ nav * {
   font-family: "Montserrat", sans-serif;
 }
 
-#spinner1 {
-  height: 50px;
-  width: 50px;
-  border: solid 5px var(--md-sys-color-primary);
-  text-align: center;
-  justify-content: center;
-  border-bottom: solid 5px white;
-  margin: auto;
-  position: absolute;
-  top: calc(50% - 25px);
-  left: calc(50% - 25px);
-  border-radius: 50%;
-  display: inline-block;
-  animation: spin 1s infinite linear 0s;
+
+.loader {
+  height: 40px;
+  aspect-ratio: 1.5;
+  --c:no-repeat linear-gradient(#fff 0 0);
+  background: var(--c), var(--c), var(--c), var(--c);
+  background-size: 33.4% 50%;
+  animation: l6 2s infinite linear;
 }
+@keyframes l6 {
+  0%    {background-position:0 0,50% 0,0 100%,50% 100%}
+  12.5% {background-position:0 0,100% 0,0 100%,50% 100%}
+  25%   {background-position:0 0,100% 0,0 100%,50% 0}
+  37.5% {background-position:0 0,100% 0,50% 100%,50% 0}
+  50%   {background-position:0 100%,100% 0,50% 100%,50% 0}
+  62.5% {background-position:0 100%,100% 0,50% 100%,0 0}
+  75%   {background-position:0 100%,100% 100%,50% 100%,0 0}
+  87.5% {background-position:0 100%,100% 100%,50% 0,0 0}
+  100%  {background-position:0 100%,50% 100%,50% 0,0 0}
+}
+
 
 .error {
   background-color: var(--md-sys-color-error-container);
@@ -239,15 +245,10 @@ section {
 #home-section {
   height: 100vh;
   overflow: hidden;
-}
-#home-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--bg-url) no-repeat center center;
+  background: var(--bg-url);
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  filter: blur(2px);
-  z-index: -1;
   background-attachment: fixed;
   background-size: cover;
 }

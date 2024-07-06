@@ -3,8 +3,11 @@ import numpy as np
 import pickle
 from werkzeug.exceptions import BadRequest, NotFound
 import requests
+import os
 
-BGREMOVER_APIKEY = "TE3bb3MkxCZL5tdC1atkoYgj"
+
+BGREMOVER_APIKEY = os.environ.get('BGREMOVER_APIKEY')
+
 
 with open('all_books.json', 'r') as f:
     all_books = json.load(f)
@@ -20,6 +23,8 @@ def top_50():
 
 def recommend(book_name, k):
     book_index = pickle.load(open("book_index.pkl", "rb"))
+    book_name = book_name.replace("%20", " ")
+    # print(book_name, book_index)
     try:
         index = np.where(book_index == book_name)[0][0]
     except:
@@ -41,10 +46,10 @@ def recommend(book_name, k):
 def list_books():
     return json.dumps(list(all_books.keys()))
 
-def removeBg(file_path):
+def removeBg(file_path, file_name):
     # Download and Save file from link to server
     req = requests.get(file_path)
-    file_path = "temp.png"
+    file_path = "dist/temp.png"
     with open(file_path, 'wb') as f:
         f.write(req.content)
         f.close()
@@ -58,12 +63,10 @@ def removeBg(file_path):
         headers={'X-Api-Key': BGREMOVER_APIKEY},
     )
 
-    final_path = 'static/images/no-bg.png'
+    final_path = 'dist/' + file_name + '.png'
     if response.status_code == requests.codes.ok:
         with open(final_path, 'wb') as out:
             out.write(response.content)
-    else:
-        print("Error:", response.status_code, response.text)
-    
-    return final_path
+            out.close()
+        return final_path
 
