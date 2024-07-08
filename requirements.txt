@@ -7,3 +7,4 @@ pandas==1.5.3
 flask-cors
 requests
 fuzzywuzzy
+backgroundremover
