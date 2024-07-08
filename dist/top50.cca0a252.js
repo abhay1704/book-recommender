@@ -652,86 +652,7 @@ sortBtns.addEventListener("change", (e)=>{
     paginationHandler.handlePagination(goToPage.bind(paginationHandler));
 });
 
-},{"./api.js":"rLA6s","./config.js":"92e0v","./paginationHandler.js":"21eeY","./domUtils.js":"ljlVQ","./dataUrlHandler.js":"atzk8"}],"rLA6s":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "getData", ()=>getData);
-parcelHelpers.export(exports, "postData", ()=>postData);
-const timer = (ms)=>new Promise((_, rej)=>setTimeout(rej.bind(undefined, "Response Timeout!! Internet Connection too slow"), ms));
-const getData = async (url)=>{
-    try {
-        const response = await Promise.race([
-            fetch(url),
-            timer(7000)
-        ]);
-        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-        return response.json();
-    } catch (error) {
-        throw error;
-    }
-};
-const postData = async (url, data)=>{
-    try {
-        const response = await fetch(url, {
-            method: "POST",
-            body: JSON.stringify(data),
-            headers: {
-                "Content-Type": "application/json"
-            }
-        });
-        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-        if (response.status !== 200) return [];
-        return response.json();
-    } catch (error) {
-        throw error;
-    }
-};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"92e0v":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "API_CONFIG", ()=>API_CONFIG);
-const API_CONFIG = {
-    API_URL_GOOGLE: "https://www.googleapis.com/books/v1/volumes",
-    API_KEY_GOOGLE: "AIzaSyCEPuCpP9wRZ6zmaA6EIQJzY8zOT5Eyhsg",
-    API_KEY_MOCKUP: "5aab411c-74db-45bf-8afc-70c5aec1e534",
-    BGREMOVER: "http://127.0.0.1:5000/remove_bg",
-    RECOMMEND_URL: "http://127.0.0.1:5000/suggestions",
-    TOP_50: "http://127.0.0.1:5000/top50",
-    RESULT_PER_PAGE: 9
-};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"21eeY":[function(require,module,exports) {
+},{"./api.js":"rLA6s","./config.js":"92e0v","./paginationHandler.js":"21eeY","./domUtils.js":"ljlVQ","./dataUrlHandler.js":"atzk8"}],"21eeY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "PaginationHandler", ()=>PaginationHandler);
@@ -751,7 +672,6 @@ class PaginationHandler {
             const target = e.target;
             if (!target.classList.contains("pagination__btn")) return;
             const pageNumber = parseInt(target.dataset.pageNumber);
-            console.log(pageNumber);
             if (pageNumber <= 0 || pageNumber > this.pages) return;
             callback(pageNumber);
         });
@@ -765,7 +685,6 @@ class PaginationHandler {
             const pageNumber = this.currentPage - 3 + i;
             if (pageNumber > 0 && pageNumber <= this.pages) pageNumbers.push(pageNumber);
         }
-        console.log(pageNumbers);
         pageNumbers.slice(-3).forEach((pageNumber, index)=>{
             specificPageBtn[index].dataset.pageNumber = pageNumber;
             specificPageBtn[index].textContent = pageNumber;
@@ -780,57 +699,6 @@ class PaginationHandler {
         this.updateBtns();
     };
 }
-
-},{"./domUtils":"ljlVQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ljlVQ":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "getElement", ()=>getElement);
-parcelHelpers.export(exports, "getElements", ()=>getElements);
-parcelHelpers.export(exports, "setElementText", ()=>setElementText);
-parcelHelpers.export(exports, "setBookCoverImage", ()=>setBookCoverImage);
-parcelHelpers.export(exports, "setError", ()=>setError);
-const getElement = (selector)=>document.querySelector(selector);
-const getElements = (selector)=>document.querySelectorAll(selector);
-const setElementText = (selector, text)=>{
-    getElements(selector).forEach((element)=>element.textContent = text);
-};
-function setBookCoverImage(imageUrl) {
-    imageUrl = imageUrl.replace("http://", "https://");
-    getElement("#home-section").style.background = `url(${imageUrl})`;
-}
-function setError(msg, parent = "#whole-content") {
-    const error = `<div class="error">${msg}</div>`;
-    getElement(parent).insertAdjacentHTML("beforeend", error);
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"atzk8":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "handleDataUrl", ()=>handleDataUrl);
-parcelHelpers.export(exports, "handleBatchDataUrl", ()=>handleBatchDataUrl);
-var _domUtils = require("./domUtils");
-const handleDataUrl = ()=>{
-    const dataUrl = document.querySelectorAll("[data-url]");
-    console.log(dataUrl);
-    dataUrl.forEach((element)=>{
-        const url = element.getAttribute("data-url");
-        element.addEventListener("click", (event)=>{
-            event.preventDefault();
-            console.log(url);
-            window.location.href = url;
-        });
-    });
-};
-const handleBatchDataUrl = ()=>{
-    const books = (0, _domUtils.getElement)(".books");
-    books.addEventListener("click", (event)=>{
-        const target = event.target.closest("[data-url]");
-        if (!target) return;
-        event.preventDefault();
-        const url = target.getAttribute("data-url");
-        window.location.href = url;
-    });
-};
 
 },{"./domUtils":"ljlVQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["2d0eM","4bHtU"], "4bHtU", "parcelRequire2955")
 

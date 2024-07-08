@@ -2,12 +2,10 @@ import { getElement } from "./domUtils";
 
 export const handleDataUrl = () => {
   const dataUrl = document.querySelectorAll("[data-url]");
-  console.log(dataUrl);
   dataUrl.forEach((element) => {
     const url = element.getAttribute("data-url");
     element.addEventListener("click", (event) => {
       event.preventDefault();
-      console.log(url);
       window.location.href = url;
     });
   });

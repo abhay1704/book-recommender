@@ -14,6 +14,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.logo,
+nav {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
 ::selection {
   background-color: var(--md-sys-color-secondary);
   color: var(--md-sys-color-on-secondary);
@@ -39,27 +44,49 @@ nav * {
   font-family: "Montserrat", sans-serif;
 }
 
-
 .loader {
-  height: 40px;
   aspect-ratio: 1.5;
-  --c:no-repeat linear-gradient(#fff 0 0);
+  --c: no-repeat linear-gradient(#2f2caf 0 0);
   background: var(--c), var(--c), var(--c), var(--c);
   background-size: 33.4% 50%;
-  animation: l6 2s infinite linear;
+  height: 80px;
+  animation: 1s linear infinite l6;
+  color: red;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 @keyframes l6 {
-  0%    {background-position:0 0,50% 0,0 100%,50% 100%}
-  12.5% {background-position:0 0,100% 0,0 100%,50% 100%}
-  25%   {background-position:0 0,100% 0,0 100%,50% 0}
-  37.5% {background-position:0 0,100% 0,50% 100%,50% 0}
-  50%   {background-position:0 100%,100% 0,50% 100%,50% 0}
-  62.5% {background-position:0 100%,100% 0,50% 100%,0 0}
-  75%   {background-position:0 100%,100% 100%,50% 100%,0 0}
-  87.5% {background-position:0 100%,100% 100%,50% 0,0 0}
-  100%  {background-position:0 100%,50% 100%,50% 0,0 0}
+  0% {
+    background-position: 0 0, 50% 0, 0 100%, 50% 100%;
+  }
+  12.5% {
+    background-position: 0 0, 100% 0, 0 100%, 50% 100%;
+  }
+  25% {
+    background-position: 0 0, 100% 0, 0 100%, 50% 0;
+  }
+  37.5% {
+    background-position: 0 0, 100% 0, 50% 100%, 50% 0;
+  }
+  50% {
+    background-position: 0 100%, 100% 0, 50% 100%, 50% 0;
+  }
+  62.5% {
+    background-position: 0 100%, 100% 0, 50% 100%, 0 0;
+  }
+  75% {
+    background-position: 0 100%, 100% 100%, 50% 100%, 0 0;
+  }
+  87.5% {
+    background-position: 0 100%, 100% 100%, 50% 0, 0 0;
+  }
+  100% {
+    background-position: 0 100%, 50% 100%, 50% 0, 0 0;
+  }
 }
-
 
 .error {
   background-color: var(--md-sys-color-error-container);
@@ -266,6 +293,7 @@ section {
 
 #home-section .content {
   color: var(--md-sys-color-on-primary);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 section .about {
@@ -701,6 +729,7 @@ li::before {
   margin-top: 10rem;
   margin: auto;
   width: 100%;
+  max-height: 100vh;
   color: white;
   text-align: center;
   overflow: hidden;
@@ -720,12 +749,13 @@ li::before {
     z-index: 4;
   }
 
-  .img {
+  .book-img-mini {
     overflow: hidden;
+    width: 40%;
 
     img {
-      height: 100%;
       object-fit: contain;
+      width: 140%;
       object-position: center center;
     }
   }

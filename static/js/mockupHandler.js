@@ -1,14 +1,27 @@
-import { API_CONFIG } from "./config.js";
-import { getData } from "./api.js";
-import { removeBackground } from "./api.js";
+import { API_CONFIG, stateVariables } from "./config.js";
+import { postData } from "./api.js";
+import { loadPage } from "./bookDetail.js";
 
-export const renderMockup = async (image_url) => {
+const setMockup = (mockupURL) => {
+  document.querySelectorAll(".book-img img").forEach((bookImage) => {
+    bookImage.src = mockupURL;
+    bookImage.addEventListener("load", () => {
+      stateVariables.mockupLoaded = true;
+      if (stateVariables.coverLoaded) {
+        loadPage();
+      }
+    });
+  });
+};
+
+export const renderMockup = async (image_url, book_name) => {
   image_url = image_url.replace("http://", "https://");
-  const url = "https://api.mediamodifier.com/v2/mockup/render";
+  const file_name = "mockup_" + book_name;
+
+  const url = API_CONFIG.MOCKUP_URL;
   const options = {
     method: "POST",
     headers: {
-      api_key: API_CONFIG.API_KEY_MOCKUP,
       "Content-Type": "application/json",
       Accept: "application/json",
     },
@@ -18,7 +31,6 @@ export const renderMockup = async (image_url) => {
         {
           id: "jujmugkht9uyhlb6sjd",
           data: image_url,
-          crop: { x: 0, y: 0, width: 128, height: 169 },
           checked: true,
         },
         {
@@ -31,18 +43,22 @@ export const renderMockup = async (image_url) => {
   };
 
   try {
-    const response = await fetch(url, options);
-    const data = await response.json();
-    if (!response.ok) {
-      throw new Error(data.message);
-    }
+    const data = {
+      options: options,
+      file_name: file_name,
+    };
 
-    const mockupImage = await removeBackground(data.url, "mockup_image");
-    const mockupURL = URL.createObjectURL(mockupImage);
-    document.querySelectorAll(".book-img img").forEach((bookImage) => {
-      bookImage.src = mockupURL;
-    });
+    const response = await postData(url, data);
+    if (!response) {
+      if (stateVariables.coverLoaded) {
+        loadPage();
+      }
+      throw new Error(response["message"]);
+    }
+    const mockupURL = response["file_path"];
+    setMockup(mockupURL);
   } catch (error) {
     console.error(error);
+    throw error;
   }
 };

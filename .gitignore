@@ -7,3 +7,4 @@ static/js/config.js
 __pycache__/
 archive.zip
 .ipynb_checkpoints/
+*.env

@@ -3,33 +3,31 @@ import {
   elasticScroll,
   navScroller,
   scrollReveal,
+  removeHeader,
 } from "./scrollHandler.js";
 import { initStarRating } from "./starRating.js";
 import { getBook, setWebpageData } from "./bookHandler.js";
 import { getElement, setError } from "./domUtils.js";
 
-const spinner = `<div class="loader"></div>`;
+export const loadPage = () => {
+  getElement(".loader").style.display = "none";
+  getElement("#whole-content").style.display = "block";
+  if (getElement(".error")) getElement(".error").style.display = "none";
+};
 
 document.addEventListener("DOMContentLoaded", () => {
   initScrollHandler();
-
-  initStarRating();
+  removeHeader();
   elasticScroll();
   navScroller();
   scrollReveal();
-  getElement("body").insertAdjacentHTML("beforeend", spinner);
 
   const urlParams = new URLSearchParams(window.location.search);
   const bookName = urlParams.get("book");
-  console.log(bookName);
 
   getBook(bookName)
     .then((data) => {
       setWebpageData(data);
-      setTimeout(() => {
-        getElement(".loader").style.display = "none";
-        getElement("#whole-content").style.display = "block";
-      }, 2500);
     })
     .catch((error) => {
       setError(error, "body");

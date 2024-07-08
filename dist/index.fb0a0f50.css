@@ -57,7 +57,7 @@ section {
 #hero-section:after {
   content: "";
   background-color: var(--md-sys-color-primary);
-  z-index: 1;
+  z-index: -1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

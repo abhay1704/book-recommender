@@ -1,9 +1,7 @@
 import { getElement, getElements } from "./domUtils.js";
-import overscroll from "overscroll";
 
 export const initScrollHandler = () => {
   const header = getElement("header");
-  const home = getElement("#home-section");
   let lastScrollTop = 0;
   let dec = 0;
 
@@ -23,8 +21,12 @@ export const initScrollHandler = () => {
         : dec + (lastScrollTop - scrollTop) * 0.1;
     lastScrollTop = scrollTop;
   };
+};
 
-  const removeHeader = new IntersectionObserver(
+export const removeHeader = () => {
+  const home = getElement("#home-section");
+  const header = getElement("header");
+  const headerOnserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) {
@@ -39,7 +41,7 @@ export const initScrollHandler = () => {
     { threshold: 0.3 }
   );
 
-  removeHeader.observe(home);
+  headerOnserver.observe(home);
 };
 
 export const elasticScroll = () => {

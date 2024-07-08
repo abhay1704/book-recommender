@@ -18,7 +18,6 @@ export class PaginationHandler {
       if (!target.classList.contains("pagination__btn")) return;
 
       const pageNumber = parseInt(target.dataset.pageNumber);
-      console.log(pageNumber);
       if (pageNumber <= 0 || pageNumber > this.pages) return;
       callback(pageNumber);
     });
@@ -37,7 +36,6 @@ export class PaginationHandler {
       if (pageNumber > 0 && pageNumber <= this.pages)
         pageNumbers.push(pageNumber);
     }
-    console.log(pageNumbers);
     pageNumbers.slice(-3).forEach((pageNumber, index) => {
       specificPageBtn[index].dataset.pageNumber = pageNumber;
       specificPageBtn[index].textContent = pageNumber;

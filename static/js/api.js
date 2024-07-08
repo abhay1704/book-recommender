@@ -1,27 +1,38 @@
 import { API_CONFIG } from "./config.js";
+import simpleCache from "./caching.js";
 
 const timer = (ms) =>
-  new Promise((_, rej) =>
-    setTimeout(
-      rej.bind(this, "Response Timeout!! Internet Connection too slow"),
-      ms
-    )
+  new Promise((resolve, reject) =>
+    setTimeout(() => reject("Response Timeout!! Internet Connection too slow"), ms)
   );
 
-export const getData = async (url) => {
+export const getData = async (url, options = null, jsonify = true) => {
   try {
-    const response = await Promise.race([fetch(url), timer(7000)]);
+    const cacheData = simpleCache.get(url);
+    if (cacheData) {
+      return cacheData;
+    }
+    const response = await Promise.race([fetch(url, options), timer(20000)]);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    return response.json();
+    if (!jsonify) return response;
+    const data = await response.json();
+    simpleCache.set(url, data);
+    return data;
   } catch (error) {
+    console.error(error);
     throw error;
   }
 };
 
 export const postData = async (url, data) => {
   try {
+    const file_name = data.file_name;
+    const cacheData = simpleCache.get(file_name);
+    if (cacheData) {
+      return cacheData;
+    }
     const response = await fetch(url, {
       method: "POST",
       body: JSON.stringify(data),
@@ -36,21 +47,29 @@ export const postData = async (url, data) => {
 
     if (response.status !== 200) return [];
 
-    return response.json();
+    const responseData = await response.json();
+    console.log(responseData);
+    simpleCache.set(file_name, responseData);
+    return responseData;
   } catch (error) {
+    console.error(error);
     throw error;
   }
 };
 
 export const removeBackground = async (image_url, file_name) => {
+  const cached = simpleCache.get(file_name);
+  if (cached) {
+    return cached;
+  }
   const url = `${API_CONFIG.BGREMOVER}?file_path=${image_url}&file_name=${file_name}`;
 
   try {
-    const response = await fetch(url);
-    const data = await response;
-    if (!response.ok) {
-      throw new Error(data.message);
-    }
-    return response.blob();
-  } catch (error) {}
+    const data = await getData(url);
+    simpleCache.set(file_name, data);
+    return data;
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
 };

@@ -1,0 +1,13 @@
+let e;var t=globalThis,a={},n={},r=t.parcelRequire2955;null==r&&((r=function(e){if(e in a)return a[e].exports;if(e in n){var t=n[e];delete n[e];var r={id:e,exports:{}};return a[e]=r,t.call(r.exports,r,r.exports),r.exports}var i=Error("Cannot find module '"+e+"'");throw i.code="MODULE_NOT_FOUND",i}).register=function(e,t){n[e]=t},t.parcelRequire2955=r),r.register;var i=r("6FAcS"),s=r("jXPZz"),o=r("8nUlx");const l=(0,o.getElement)(".pagination__btns"),c=(0,o.getElement)(".prev.pagination__btn"),g=(0,o.getElement)(".next.pagination__btn"),p=(0,o.getElements)(".page.pagination__btn"),u=(0,o.getElement)("#page-number");class d{constructor(e){this.currentPage=1,this.pages=e}handlePagination=e=>{l.addEventListener("click",t=>{let a=t.target;if(!a.classList.contains("pagination__btn"))return;let n=parseInt(a.dataset.pageNumber);n<=0||n>this.pages||e(n)})};updateBtns=()=>{c.dataset.pageNumber=this.currentPage-1,g.dataset.pageNumber=this.currentPage+1,o.getElement(".pagination__btn--active")?.classList?.remove("pagination__btn--active");let e=[];for(let t=1;t<=5;t++){let a=this.currentPage-3+t;a>0&&a<=this.pages&&e.push(a)}e.slice(-3).forEach((e,t)=>{p[t].dataset.pageNumber=e,p[t].textContent=e}),p.forEach(e=>{parseInt(e.dataset.pageNumber)===this.currentPage&&e.classList.add("pagination__btn--active")}),u.value=this.currentPage};setPageNumber=e=>{this.currentPage=e,this.updateBtns()}}var o=r("8nUlx"),h=r("4WPy0");const b=s.API_CONFIG.TOP_50,m=s.API_CONFIG.RESULT_PER_PAGE;let v=[],_=1;const E=(e,t,a)=>`
+    <div class="book book-details">
+        <div class="book-cover card-front">
+            <img src="${a}" alt="Book cover" />
+        </div>
+        <div class="book-info card-back">
+            <h3 class="book-title ">${e}</h3>
+            <p class="book-author">${t}</p>
+            <a href="#" data-url="/book?book=${encodeURIComponent(e)}" class="btn btn-primary">Read More</a>
+        </div>
+    </div>
+`,P=e=>{let t=document.querySelector(".books");t.innerHTML="",e.forEach(e=>{t.innerHTML+=E(e.title,e.author,e.image)})},f=function(e){_=e,this.setPageNumber(_);let t=(_-1)*m,a=Math.min(v.length,_*m);(0,o.setElementText)(".current-page",_),(0,o.setElementText)(".low-limit",t+1),(0,o.setElementText)(".high-limit",a),P(v.slice(t,a))},k={"a-z":(e,t)=>e.title.localeCompare(t.title),"z-a":(e,t)=>t.title.localeCompare(e.title)},x=t=>{v.sort(k[t]),f.call(e,1)};document.querySelector("#sort-by").addEventListener("change",e=>{x(e.target.value)}),(0,i.getData)(b).then(t=>{v=Object.entries(t).map(([e,t])=>({title:e.replace(/\\"|\\/g,'"'),...t})),(0,h.handleBatchDataUrl)(),e=new d(Math.ceil(v.length/m)),f.call(e,1),e.handlePagination(f.bind(e))});
+//# sourceMappingURL=top50.da0d47e3.js.map

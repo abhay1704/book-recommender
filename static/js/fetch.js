@@ -26,7 +26,6 @@ const getBook = async (query) => {
   const bookUrl = searchData.items[0].selfLink;
   const bookData = await getData(bookUrl);
 
-  console.log(bookData);
   return {
     title: bookData.volumeInfo.title,
     subtitle: bookData.volumeInfo.subtitle,
@@ -49,12 +48,10 @@ const getAuthor = async (author) => {
   const url = `https://openlibrary.org/search/authors.json?q=${author}`;
   const authorResponse = await getData(url);
 
-  console.log(authorResponse);
 
   const authorKey = authorResponse.docs[0].key;
   const authorUrl = `https://openlibrary.org/authors/${authorKey}.json`;
   const authorData = await getData(authorUrl);
-  console.log(authorData);
 
   return {
     name: authorData.name,
@@ -76,7 +73,6 @@ const removeBackground = async (image_url) => {
 
     return data.file_path;
   } catch (error) {
-    console.error(error);
   }
 };
 /* Mockup API: */
@@ -101,14 +97,12 @@ async function renderMockup(image_url) {
       throw new Error(data.message);
     }
 
-    console.log(data);
     const mockupImage = await removeBackground(data.url);
     image_3d = "../" + mockupImage;
     bookImages.forEach((bookImage) => {
       bookImage.src = image_3d;
     });
   } catch (error) {
-    console.error(error);
   }
 }
 
@@ -187,6 +181,5 @@ const setWebpageData = (data) => {
 };
 
 getBook("javascript").then((data) => {
-  console.log(data);
   setWebpageData(data);
 });

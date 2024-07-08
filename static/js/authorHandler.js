@@ -13,7 +13,7 @@ export const getAuthor = async (author) => {
   return {
     name: authorData.name,
     image: authorData.photos ? AUTHOR_IMAGE(authorData.photos[0]) : null,
-    bio: authorData.bio || "",
+    bio: authorData.bio?.value || authorData.bio || "",
     url: authorData.links ? authorData.links[0].url : "#",
   };
 };

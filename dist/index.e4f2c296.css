@@ -31,20 +31,57 @@ h1, h2, h3, h4, h5, h6, nav * {
   font-family: Montserrat, sans-serif;
 }
 
-#spinner1 {
-  border: solid 5px var(--md-sys-color-primary);
-  text-align: center;
-  border-bottom: 5px solid #fff;
-  border-radius: 50%;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  margin: auto;
-  animation: 1s linear infinite spin;
-  display: inline-block;
+.loader {
+  aspect-ratio: 1.5;
+  --c: no-repeat linear-gradient(#2f2caf 0 0);
+  background: var(--c), var(--c), var(--c), var(--c);
+  color: red;
+  background-size: 33.4% 50%;
+  align-items: center;
+  height: 80px;
+  animation: 1s linear infinite l6;
   position: absolute;
-  top: calc(50% - 25px);
-  left: calc(50% - 25px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes l6 {
+  0% {
+    background-position: 0 0, 50% 0, 0 100%, 50% 100%;
+  }
+
+  12.5% {
+    background-position: 0 0, 100% 0, 0 100%, 50% 100%;
+  }
+
+  25% {
+    background-position: 0 0, 100% 0, 0 100%, 50% 0;
+  }
+
+  37.5% {
+    background-position: 0 0, 100% 0, 50% 100%, 50% 0;
+  }
+
+  50% {
+    background-position: 0 100%, 100% 0, 50% 100%, 50% 0;
+  }
+
+  62.5% {
+    background-position: 0 100%, 100% 0, 50% 100%, 0 0;
+  }
+
+  75% {
+    background-position: 0 100%, 100% 100%, 50% 100%, 0 0;
+  }
+
+  87.5% {
+    background-position: 0 100%, 100% 100%, 50% 0, 0 0;
+  }
+
+  100% {
+    background-position: 0 100%, 50% 100%, 50% 0, 0 0;
+  }
 }
 
 .error {
@@ -217,8 +254,6 @@ section {
 
 #home-section {
   background: var(--bg-url);
-  filter: blur(2px);
-  z-index: -1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -640,6 +675,7 @@ li:before {
   text-align: center;
   background-color: #0000;
   width: 100%;
+  max-height: 100vh;
   margin: auto;
   padding: 70px;
   overflow: hidden;
@@ -659,13 +695,14 @@ li:before {
     height: fit-content;
   }
 
-  & .img {
+  & .book-img-mini {
+    width: 40%;
     overflow: hidden;
 
     & img {
       object-fit: contain;
       object-position: center center;
-      height: 100%;
+      width: 140%;
     }
   }
 
