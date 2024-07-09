@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel templates/index.html",
-    "build": "parcel build --public-url dist/ templates/index.html",
-    "build-book": "parcel build --public-url ../dist/ templates/home.html"
+    "build": "parcel build templates/index.html",
+    "build-book": "parcel build templates/home.html"
   },
   "keywords": [],
   "author": "",

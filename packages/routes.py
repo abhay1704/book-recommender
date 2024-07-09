@@ -19,6 +19,10 @@ def index():
 def top50books():
     return render_template('top50.html')
 
+@app.route('/top50')
+def top50():
+    return utils.top_50()
+
 
 @app.route('/book')
 def book():
