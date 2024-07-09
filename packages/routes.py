@@ -8,10 +8,10 @@ from apscheduler.schedulers.background import BackgroundScheduler
 import logging
 import datetime
 
-__search_cache__ = cache.SimpleCache(6)
-__mockup_cache__ = cache.SimpleCache(20)
-__recommend_cache__ = cache.SimpleCache(6)
-__remove_bg_cache__ = cache.SimpleCache(20)
+__search_cache__ = cache.SimpleCache(3)
+__mockup_cache__ = cache.SimpleCache(10)
+__recommend_cache__ = cache.SimpleCache(3)
+__remove_bg_cache__ = cache.SimpleCache(10)
 
 
 @app.route('/')

@@ -2,9 +2,11 @@ node_modules
 *.log
 build/
 .cache/
-static/js/config.js
 .parcel-cache/
 __pycache__/
 archive.zip
 .ipynb_checkpoints/
 *.env
+archive.zip/
+dataset/
+*.ipynb/
