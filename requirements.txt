@@ -10,5 +10,5 @@ fuzzywuzzy
 backgroundremover
 apscheduler
 python-dotenv
-setuptools>=42
-wheel
+setuptools==65.5.0
+wheel==0.37.1
