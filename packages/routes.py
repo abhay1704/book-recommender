@@ -4,6 +4,9 @@ from flask_cors import CORS
 from . import utils
 from flask import current_app as app
 from . import cache
+from apscheduler.schedulers.background import BackgroundScheduler
+import logging
+import datetime
 
 __search_cache__ = cache.SimpleCache(6)
 __mockup_cache__ = cache.SimpleCache(20)
@@ -22,6 +25,20 @@ def top50books():
 @app.route('/top50')
 def top50():
     return utils.top_50()
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+
+def reload_website():
+    logging.info(f"Reloaded at {datetime.now().isoformat()}")
+
+# Initialize the scheduler
+scheduler = BackgroundScheduler()
+scheduler.add_job(func=reload_website, trigger="interval", seconds=14*60)
+
+@app.before_first_request
+def init_scheduler():
+    scheduler.start()
 
 
 @app.route('/book')
