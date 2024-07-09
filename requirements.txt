@@ -9,4 +9,4 @@ requests
 fuzzywuzzy
 backgroundremover
 apscheduler
-dotenv
+python-dotenv
