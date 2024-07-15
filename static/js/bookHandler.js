@@ -29,7 +29,6 @@ const setReccommendations = (reccomends) => {
 const setAuthorData = (authors) => {
   getAuthor(authors[0])
     .then((authorData) => {
-      console.log(authorData);
       if (authorData.bio === "") {
         getElement("#about-author").style.display = "none";
         return;
@@ -137,7 +136,6 @@ export const setWebpageData = (data) => {
   else {
     setReccommendations(reccomends);
   }
-  console.log(data);
 };
 
 /*

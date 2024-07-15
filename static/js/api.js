@@ -48,11 +48,9 @@ export const postData = async (url, data) => {
     if (response.status !== 200) return [];
 
     const responseData = await response.json();
-    console.log(responseData);
     simpleCache.set(file_name, responseData);
     return responseData;
   } catch (error) {
-    console.error(error);
     throw error;
   }
 };
