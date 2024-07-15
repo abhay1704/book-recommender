@@ -7,6 +7,7 @@ from backgroundremover.bg import remove
 import os
 from dotenv import load_dotenv
 from fuzzywuzzy import process
+import cv2
 
 load_dotenv()
 API_KEY_GOOGLE = os.getenv("API_KEY_GOOGLE")
@@ -63,28 +64,26 @@ def recommend(book_name, k):
 def list_books():
     return json.dumps(list(all_books.keys()))
 
-def _remove_bg(src_img_path, out_img_path):
-    model_choices = ["u2net", "u2net_human_seg", "u2netp"]
-    f = open(src_img_path, "rb")
-    data = f.read()
-    img = remove(data, model_name=model_choices[0],
-                 alpha_matting=True,
-                 alpha_matting_foreground_threshold=240,
-                 alpha_matting_background_threshold=10,
-                 alpha_matting_erode_structure_size=10,
-                 alpha_matting_base_size=1000)
-    f.close()
-    f = open(out_img_path, "wb")
-    f.write(img)
-    f.close()
+def _remove_bg(image_path, output_path):
+    url = "https://abhay1704-bgremove.hf.space/remove-background/"
+    files = {'file': open(image_path, 'rb')}
+
+    response = requests.post(url, files=files)
+
+    if response.status_code == 200:
+        with open(output_path, "wb") as f:
+            f.write(response.content)
+        return output_path
+    else:
+        return None        
 
 def removeBg(file_path, file_name):
     res = requests.get(file_path)
     with open('src.png', 'wb') as f:
         f.write(res.content)
 
-    _remove_bg('src.png', f'dist/{file_name}.png' )
-    return f'dist/{file_name}.png'
+    file = _remove_bg('src.png', f'dist/{file_name}.png' )
+    return file
 
 def search(query):
     URL = f"{API_URL_GOOGLE}?q={query}&key={API_KEY_GOOGLE}"

@@ -432,13 +432,24 @@ h2 {
     padding-right: 0;
   }
 
+  .card-front * {
+    text-align: left !important;
+  }
+
   #top50 {
     padding: 0;
   }
 
   #hero-section {
-    padding: 6rem 5px;
+    padding: 6rem 20px;
     z-index: -1;
+  }
+
+  .typing {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    max-width: 768px !important;
   }
 
   .floating-icon {
@@ -459,6 +470,9 @@ h2 {
 
   #hero-content {
     z-index: 10;
+    height: 50%;
+    padding-top: 5rem !important;
+    position: relative;
   }
 
   .about-content {
@@ -779,6 +793,15 @@ footer {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 768px;
+    }
+  }
+
   .book-card h2 {
     font-size: 1.5rem;
   }

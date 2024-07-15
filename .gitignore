@@ -11,3 +11,6 @@ archive.zip/
 dataset/
 *.ipynb/
 .vercel
+*.png
+*.jpg
+*.jpeg

@@ -21,6 +21,8 @@ export const initScrollHandler = () => {
         : dec + (lastScrollTop - scrollTop) * 0.1;
     lastScrollTop = scrollTop;
   };
+
+  window.addEventListener("scroll", screenScroll);
 };
 
 export const removeHeader = () => {
@@ -31,10 +33,8 @@ export const removeHeader = () => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) {
           header.classList.add("collapse", "dark");
-          window.addEventListener("scroll", screenScroll);
         } else {
           header.classList.remove("collapse", "dark");
-          window.removeEventListener("scroll", screenScroll);
         }
       });
     },
@@ -146,17 +146,17 @@ export function scrollReveal() {
 }
 
 export const removeBookHandler = () => {
-  const book = getElement(".book-img");
-  const removeBook = () => {
-    book.style.transform = "rotateZ(20deg) translateX(100%)";
-  };
-  const addBook = () => {
-    book.style.transform = "";
-  };
+  // const book = getElement(".book-main");
+  // const removeBook = () => {
+  //   book.style.transform = "rotateZ(20deg) translateX(100%)";
+  // };
+  // const addBook = () => {
+  //   book.style.transform = "";
+  // };
 
-  const homeObserver = new IntersectionObserver(([entry, ..._]) => {
-    if (entry.isIntersecting) removeBook();
-  });
+  // const homeObserver = new IntersectionObserver(([entry, ..._]) => {
+  //   if (entry.isIntersecting) removeBook();
+  // });
 
-  homeObserver.observe(getElement("#target"));
+  // homeObserver.observe(getElement("#target"));
 };

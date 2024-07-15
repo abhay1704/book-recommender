@@ -6,7 +6,7 @@ from flask import current_app as app
 from . import cache
 from apscheduler.schedulers.background import BackgroundScheduler
 import logging
-import datetime
+from datetime import datetime
 
 __search_cache__ = cache.SimpleCache(3)
 __mockup_cache__ = cache.SimpleCache(10)

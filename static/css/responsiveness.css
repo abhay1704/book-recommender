@@ -1,58 +1,92 @@
 @media screen and (max-width: 768px) {
   body {
-  font-size: 14px;
+    font-size: 14px;
   }
 
-  h1 { font-size: 24px; }
-  h2 { font-size: 22px; }
-  h3 { font-size: 20px; }
-  h4 { font-size: 18px; }
-  h5 { font-size: 16px; }
-  h6 { font-size: 14px; }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 14px;
+  }
 
   nav ul {
-  flex-direction: column;
-  padding: 0;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .content {
+    width: 100% !important;
+    justify-content: center;
+    padding: 0 !important;
   }
 
   nav ul a {
-  padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
   }
 
-  header .container {
-  flex-direction: column;
+  header {
+    display: none;
   }
 
   .collapse {
-  transition: max-height 0.3s ease-in-out;
+    transition: max-height 0.3s ease-in-out;
   }
 
   .error p {
-  font-size: 1rem;
+    font-size: 1rem;
+  }
+
+  .book-img {
+    display: none !important;
   }
 
   section:not(
-    #home-section,
-    #introduction,
-    #hero-section,
-    #about,
-    #top-50,
-    #experience-book
-  ) {
-  transform: translateY(100px);
+      #home-section,
+      #introduction,
+      #hero-section,
+      #about,
+      #top-50,
+      #experience-book
+    ) {
+    transform: translateY(100px);
   }
 
-  section {
-    padding: 0 15px;
+  #introduction{
+    padding: 0 !important;
   }
 
-  #home-section .container, #home-section .content, .book-img, .img {
+
+  #home-section .container,
+  #home-section .content,
+  .book-img,
+  .img {
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  #home-section .content, .book-name, #genre, h2, .pen, .book-img, .btn-wrapper, a.btn {
+  #home-section .content,
+  .book-name,
+  #genre,
+  h2,
+  .pen,
+  .book-img,
+  .btn-wrapper,
+  a.btn {
     width: 100%;
     max-width: none; /* Resets any max-width */
   }
@@ -71,7 +105,8 @@
     font-size: 2rem; /* Smaller font size for book name */
   }
 
-  #genre, h2 {
+  #genre,
+  h2 {
     font-size: 1.2rem; /* Smaller font sizes for genre and h2 */
   }
 
@@ -88,27 +123,39 @@
     width: 100%; /* Full width for list items */
   }
 
-  #about-book, #experience-book, #about-author, .container-lv-2, #recommended-books, footer {
-    padding: 5%;
+  #about-book,
+  #experience-book,
+  #about-author,
+  .container-lv-2,
+  #recommended-books,
+  footer {
+    padding: 5% !important;
   }
 
-  #about-book .imgs, #about-author #author-img img, #experience-book .img img, #recommended-books .book img {
+  #about-book .imgs,
+  #about-author #author-img img,
+  #experience-book .img img,
+  #recommended-books .book img {
     max-width: 100%;
   }
 
-  #about-book iframe, .content, #experience-book .content {
+  #about-book iframe,
+  .content,
+  #experience-book .content {
     width: 100%;
     padding-left: 0;
     padding: 1rem;
   }
 
-  .suppliers, .container-lv-2 {
+  .suppliers,
+  .container-lv-2 {
     flex-direction: column;
   }
 
   .testimonials {
     width: 90%;
     left: 5%;
+    bottom: -13%;
   }
 
   #recommended-books .book-list {
@@ -125,4 +172,3 @@
     justify-content: center;
   }
 }
-
