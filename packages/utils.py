@@ -7,7 +7,6 @@ from backgroundremover.bg import remove
 import os
 from dotenv import load_dotenv
 from fuzzywuzzy import process
-import cv2
 
 load_dotenv()
 API_KEY_GOOGLE = os.getenv("API_KEY_GOOGLE")

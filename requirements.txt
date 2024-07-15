@@ -10,4 +10,3 @@ fuzzywuzzy==0.18.0
 backgroundremover
 apscheduler==3.10.1
 python-dotenv==1.0.0
-cv2
