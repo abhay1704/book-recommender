@@ -9,10 +9,9 @@ archive.zip
 *.env
 archive.zip/
 dataset/
-*.ipynb/
+*.ipynb
 .vercel
 *.png
 *.jpg
 *.jpeg
-*/ipynb
 dataset
