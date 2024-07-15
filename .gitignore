@@ -9,7 +9,7 @@ archive.zip
 *.env
 archive.zip/
 dataset/
-book\-recomendation\-system.ipynb
+*.ipynb
 .vercel
 *.png
 *.jpg
