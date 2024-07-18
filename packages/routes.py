@@ -13,7 +13,7 @@ __remove_bg_cache__ = cache.SimpleCache(10)
 
 
 @app.route('/hi')
-def index():
+def hi():
     return "Hello World!"
 
 
