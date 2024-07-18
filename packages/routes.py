@@ -4,7 +4,6 @@ from flask_cors import CORS
 from . import utils
 from flask import current_app as app
 from . import cache
-import logging
 from datetime import datetime
 
 __search_cache__ = cache.SimpleCache(3)

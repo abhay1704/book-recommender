@@ -3,7 +3,6 @@ import numpy as np
 import pickle
 from werkzeug.exceptions import BadRequest, NotFound
 import requests
-from backgroundremover.bg import remove
 import os
 from dotenv import load_dotenv
 from fuzzywuzzy import process
