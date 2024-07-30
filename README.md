@@ -19,6 +19,8 @@ The Book Recommendation System is designed to cater to a wide range of users, fr
 ## Project URL
 
 You can explore the live version of our project [here](https://book-reccomender.onrender.com).
+![image](https://github.com/user-attachments/assets/c1df1482-b809-4bf8-8ae4-f5a4fabba6eb)
+
 
 ## Technologies Used
 
