@@ -98,10 +98,19 @@ const scrollHandler = (target) => {
   const targetId = target.getAttribute("href");
   const targetElement = getElement(targetId);
 
-  targetElement.scrollIntoView({
-    behavior: "smooth",
-    block: "start",
-  });
+  const targetPosition = targetElement.offsetTop;
+  const headerHeight = getElement("header").offsetHeight;
+  const screenHeight = window.innerHeight;
+
+  if (
+    targetPosition < window.scrollY ||
+    targetPosition > window.scrollY + screenHeight
+  ) {
+    window.scrollTo({
+      top: targetPosition - headerHeight,
+      behavior: "smooth",
+    });
+  }
 };
 
 export const navScroller = () => {
@@ -153,10 +162,8 @@ export const removeBookHandler = () => {
   // const addBook = () => {
   //   book.style.transform = "";
   // };
-
   // const homeObserver = new IntersectionObserver(([entry, ..._]) => {
   //   if (entry.isIntersecting) removeBook();
   // });
-
   // homeObserver.observe(getElement("#target"));
 };
