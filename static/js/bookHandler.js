@@ -51,13 +51,43 @@ const setAuthorData = (authors) => {
 };
 
 // Helper function to calculate Jaccard similarity between two strings
-const jaccardSimilarity = (str1, str2) => {
-  const set1 = new Set(str1.toLowerCase().split(" "));
-  const set2 = new Set(str2.toLowerCase().split(" "));
-  const intersection = new Set([...set1].filter(x => set2.has(x)));
+function patternBoost(str1, str2) {
+  const patterns = [
+    { regex: /\bbook\s+\d+\b/i, weight: 0.3 }, // Book number pattern
+    { regex: /\bvolume\s+\d+\b/i, weight: 0.2 }, // Volume pattern
+    { regex: /\bpart\s+\d+\b/i, weight: 0.2 }, // Part number pattern
+    { regex: /\bhardcover\b/i, weight: 0.1 }, // Hardcover/paperback pattern
+  ];
+
+  let boost = 0;
+
+  patterns.forEach((pattern) => {
+    const hasPattern1 = pattern.regex.test(str1);
+    const hasPattern2 = pattern.regex.test(str2);
+
+    if (hasPattern1 && hasPattern2) {
+      boost += pattern.weight; // Increase boost if both have the pattern
+    }
+  });
+
+  return boost;
+}
+
+function jaccardSimilarity(str1, str2) {
+  const set1 = new Set(str1.toLowerCase().split(/\W+/));
+  const set2 = new Set(str2.toLowerCase().split(/\W+/));
+
+  const intersection = new Set([...set1].filter((x) => set2.has(x)));
   const union = new Set([...set1, ...set2]);
-  return intersection.size / union.size;
-};
+
+  let similarity = intersection.size / union.size;
+
+  // Apply pattern boost
+  const boost = patternBoost(str1, str2);
+  similarity += boost;
+
+  return similarity > 1 ? 1 : similarity; // Cap similarity to 1
+}
 
 // Function to get the most similar book based on the query
 export const getBook = async (query) => {
@@ -120,7 +150,6 @@ export const getBook = async (query) => {
     throw error;
   }
 };
-
 
 export const setWebpageData = (data) => {
   const {

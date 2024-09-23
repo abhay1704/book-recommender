@@ -700,6 +700,10 @@ li::before {
   a {
     color: var(--md-sys-color-primary);
   }
+
+  .btn-wrapper a {
+    color: var(--md-sys-color-on-primary);
+  }
 }
 
 .container-lv-2 {

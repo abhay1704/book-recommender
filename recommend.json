@@ -295,5 +295,140 @@
             "publisher": "W. W. Norton &amp; Company",
             "image": "http://images.amazon.com/images/P/0393317552.01.MZZZZZZZ.jpg"
         }
+    },
+    "Harry Potter and the Order of the Phoenix (Book 5)": {
+        "Harry Potter and the Goblet of Fire (Book 4)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic Paperbacks",
+            "image": "http://images.amazon.com/images/P/0439139600.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Prisoner of Azkaban (Book 3)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/0439136369.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Chamber of Secrets (Book 2)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/0439064864.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Sorcerer's Stone (Book 1)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/043936213X.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Sorcerer's Stone (Harry Potter (Paperback))": {
+            "author": "J. K. Rowling",
+            "publisher": "Arthur A. Levine Books",
+            "image": "http://images.amazon.com/images/P/059035342X.01.MZZZZZZZ.jpg"
+        }
+    },
+    "Harry Potter and the Goblet of Fire (Book 4)": {
+        "Harry Potter and the Prisoner of Azkaban (Book 3)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/0439136369.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Chamber of Secrets (Book 2)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/0439064864.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Order of the Phoenix (Book 5)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/043935806X.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Sorcerer's Stone (Book 1)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/043936213X.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Sorcerer's Stone (Harry Potter (Paperback))": {
+            "author": "J. K. Rowling",
+            "publisher": "Arthur A. Levine Books",
+            "image": "http://images.amazon.com/images/P/059035342X.01.MZZZZZZZ.jpg"
+        }
+    },
+    "Harry Potter and the Chamber of Secrets (Book 2)": {
+        "Harry Potter and the Prisoner of Azkaban (Book 3)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/0439136369.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Goblet of Fire (Book 4)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic Paperbacks",
+            "image": "http://images.amazon.com/images/P/0439139600.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Sorcerer's Stone (Harry Potter (Paperback))": {
+            "author": "J. K. Rowling",
+            "publisher": "Arthur A. Levine Books",
+            "image": "http://images.amazon.com/images/P/059035342X.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Sorcerer's Stone (Book 1)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/043936213X.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Order of the Phoenix (Book 5)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/043935806X.01.MZZZZZZZ.jpg"
+        }
+    },
+    "The Hobbit: or There and Back Again": {
+        "Blood Orchid": {
+            "author": "Stuart Woods",
+            "publisher": "Signet Book",
+            "image": "http://images.amazon.com/images/P/0451208811.01.MZZZZZZZ.jpg"
+        },
+        "Young Wives": {
+            "author": "Olivia Goldsmith",
+            "publisher": "HarperCollins Publishers",
+            "image": "http://images.amazon.com/images/P/0060175532.01.MZZZZZZZ.jpg"
+        },
+        "Nemesis": {
+            "author": "Agatha Christie",
+            "publisher": "Signet Book",
+            "image": "http://images.amazon.com/images/P/0451200187.01.MZZZZZZZ.jpg"
+        },
+        "Asking for Trouble: A Novel": {
+            "author": "Elizabeth Young",
+            "publisher": "Avon Trade",
+            "image": "http://images.amazon.com/images/P/0380818973.01.MZZZZZZZ.jpg"
+        },
+        "Bad Boy": {
+            "author": "Olivia Goldsmith",
+            "publisher": "Signet Book",
+            "image": "http://images.amazon.com/images/P/0451204956.01.MZZZZZZZ.jpg"
+        }
+    },
+    "Young Wives": {
+        "Bad Boy": {
+            "author": "Olivia Goldsmith",
+            "publisher": "Signet Book",
+            "image": "http://images.amazon.com/images/P/0451204956.01.MZZZZZZZ.jpg"
+        },
+        "Then Again, Maybe I Won't": {
+            "author": "JUDY BLUME",
+            "publisher": "Yearling",
+            "image": "http://images.amazon.com/images/P/0440486599.01.MZZZZZZZ.jpg"
+        },
+        "Blood and Gold (Rice, Anne, Vampire Chronicles.)": {
+            "author": "Anne Rice",
+            "publisher": "Ballantine Books",
+            "image": "http://images.amazon.com/images/P/0345409329.01.MZZZZZZZ.jpg"
+        },
+        "Free": {
+            "author": "Paul Vincent",
+            "publisher": "Upfront Publishing",
+            "image": "http://images.amazon.com/images/P/1844262553.01.MZZZZZZZ.jpg"
+        },
+        "M\u00c3?\u00c2\u00b6rder ohne Gesicht.": {
+            "author": "Henning Mankell",
+            "publisher": "Dtv",
+            "image": "http://images.amazon.com/images/P/3423202327.01.MZZZZZZZ.jpg"
+        }
     }
 }

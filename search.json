@@ -42556,5 +42556,1480 @@
                 }
             }
         ]
+    },
+    "The Hobbit: or There and Back Again": {
+        "kind": "books#volumes",
+        "totalItems": 1572,
+        "items": [
+            {
+                "kind": "books#volume",
+                "id": "32gyzwEACAAJ",
+                "etag": "TcSQWNnhK/0",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/32gyzwEACAAJ",
+                "volumeInfo": {
+                    "title": "The Hobbit",
+                    "subtitle": "The Enchanting Prelude to The Lord of the Rings",
+                    "authors": [
+                        "J.R.R. Tolkien"
+                    ],
+                    "publisher": "Del Rey",
+                    "publishedDate": "1986-07-12",
+                    "description": "The stirring adventure that begins The Lord of the Rings, the greatest fantasy epic of all time When Thorin Oakenshield and his band of dwarves embark upon a dangerous quest to reclaim the hoard of gold stolen from them by the evil dragon Smaug, Gandalf the wizard suggests an unlikely accomplice: Bilbo Baggins, an unassuming Hobbit dwelling in peaceful Hobbiton. Along the way, the company faces trolls, goblins, giant spiders, and worse. But as they journey from the wonders of Rivendell to the terrors of Mirkwood and beyond, Bilbo will find that there is more to him than anyone\u2014himself included\u2014ever dreamed. Unexpected qualities of courage and cunning, and a love of adventure, propel Bilbo toward his great destiny . . . a destiny that waits in the dark caverns beneath the Misty Mountains, where a twisted creature known as Gollum jealously guards a precious magic ring.",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "0345339681"
+                        },
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9780345339683"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 0,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Fiction"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "preview-1.0.0",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=32gyzwEACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&cd=1&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=32gyzwEACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit.html?hl=&id=32gyzwEACAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "NO_PAGES",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=32gyzwEACAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "NONE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "The adventures of the well-to-do hobbit, Bilbo Baggins, who lived happily in his comfortable home until a wandering wizard granted his wish."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "aTNpF3SrejYC",
+                "etag": "GI0GRfoiAuY",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/aTNpF3SrejYC",
+                "volumeInfo": {
+                    "title": "The Hobbit, Or, There and Back Again",
+                    "authors": [
+                        "John Ronald Reuel Tolkien"
+                    ],
+                    "publishedDate": "1981",
+                    "description": "Bilbo Baggins an unambitious hobbitt, and a company of dwarves meet high adventure with trolls, goblins, elves and giant spiders, in search of dragon guarded gold.",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "0048231886"
+                        },
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9780048231888"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 292,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Fiction"
+                    ],
+                    "averageRating": 5,
+                    "ratingsCount": 1,
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "0.3.1.0.preview.0",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=aTNpF3SrejYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=aTNpF3SrejYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=aTNpF3SrejYC&q=The+Hobbit:+or+There+and+Back+Again&dq=The+Hobbit:+or+There+and+Back+Again&hl=&cd=2&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=aTNpF3SrejYC&dq=The+Hobbit:+or+There+and+Back+Again&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit_Or_There_and_Back_Again.html?hl=&id=aTNpF3SrejYC"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "NO_PAGES",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=aTNpF3SrejYC&hl=&source=gbs_api",
+                    "accessViewStatus": "NONE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "Bilbo Baggins an unambitious hobbitt, and a company of dwarves meet high adventure with trolls, goblins, elves and giant spiders, in search of dragon guarded gold."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "Ts_gmPmzxtUC",
+                "etag": "HJ7e0/u6nFA",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/Ts_gmPmzxtUC",
+                "volumeInfo": {
+                    "title": "The Hobbit, Or, There and Back Again",
+                    "authors": [
+                        "John Ronald Reuel Tolkien"
+                    ],
+                    "publisher": "HarperCollins UK",
+                    "publishedDate": "1996",
+                    "description": "The Lord of the Rings is an epic adventure, a beautifully written masterpiece of imaginative fiction of the 20th century.",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9780261103344"
+                        },
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "0261103342"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 302,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Fiction"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "0.1.1.0.preview.0",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=Ts_gmPmzxtUC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=Ts_gmPmzxtUC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=Ts_gmPmzxtUC&dq=The+Hobbit:+or+There+and+Back+Again&hl=&cd=3&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=Ts_gmPmzxtUC&dq=The+Hobbit:+or+There+and+Back+Again&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit_Or_There_and_Back_Again.html?hl=&id=Ts_gmPmzxtUC"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "NO_PAGES",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": true
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=Ts_gmPmzxtUC&hl=&source=gbs_api",
+                    "accessViewStatus": "NONE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "The Lord of the Rings is an epic adventure, a beautifully written masterpiece of imaginative fiction of the 20th century."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "I3_anAEACAAJ",
+                "etag": "Hk5l+eAM1QE",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/I3_anAEACAAJ",
+                "volumeInfo": {
+                    "title": "The Hobbit Or There and Back Again",
+                    "authors": [
+                        "J. R. R. Tolkien"
+                    ],
+                    "publisher": "Mariner Books",
+                    "publishedDate": "2013-11-05",
+                    "description": "Bilbo Baggins, a respectable, well-to-do hobbit, lives comfortably in his hobbit-hole until the day the wandering wizard Gandalf chooses him to take part in an adventure from which he may never return.",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "0544164229"
+                        },
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9780544164222"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 0,
+                    "printType": "BOOK",
+                    "categories": [
+                        "YOUNG ADULT FICTION"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "preview-1.0.0",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=I3_anAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=I3_anAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=I3_anAEACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&cd=4&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=I3_anAEACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit_Or_There_and_Back_Again.html?hl=&id=I3_anAEACAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "NO_PAGES",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=I3_anAEACAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "NONE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "Bilbo Baggins, a respectable, well-to-do hobbit, lives comfortably in his hobbit-hole until the day the wandering wizard Gandalf chooses him to take part in an adventure from which he may never return."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "Udqv0AEACAAJ",
+                "etag": "b/7xJ7zxvdo",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/Udqv0AEACAAJ",
+                "volumeInfo": {
+                    "title": "The Hobbit",
+                    "subtitle": "The Enchanting Prelude to The Lord of the Rings",
+                    "authors": [
+                        "J.R.R. Tolkien"
+                    ],
+                    "publisher": "Del Rey",
+                    "publishedDate": "1986-07-12",
+                    "description": "The stirring adventure that begins The Lord of the Rings, the greatest fantasy epic of all time When Thorin Oakenshield and his band of dwarves embark upon a dangerous quest to reclaim the hoard of gold stolen from them by the evil dragon Smaug, Gandalf the wizard suggests an unlikely accomplice: Bilbo Baggins, an unassuming Hobbit dwelling in peaceful Hobbiton. Along the way, the company faces trolls, goblins, giant spiders, and worse. But as they journey from the wonders of Rivendell to the terrors of Mirkwood and beyond, Bilbo will find that there is more to him than anyone\u2014himself included\u2014ever dreamed. Unexpected qualities of courage and cunning, and a love of adventure, propel Bilbo toward his great destiny . . . a destiny that waits in the dark caverns beneath the Misty Mountains, where a twisted creature known as Gollum jealously guards a precious magic ring.",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "0345339681"
+                        },
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9780345339683"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 0,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Fiction"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "preview-1.0.0",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=Udqv0AEACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&cd=5&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=Udqv0AEACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit.html?hl=&id=Udqv0AEACAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "NO_PAGES",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=Udqv0AEACAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "NONE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "The stirring adventure that begins The Lord of the Rings, the greatest fantasy epic of all time When Thorin Oakenshield and his band of dwarves embark upon a dangerous quest to reclaim the hoard of gold stolen from them by the evil dragon ..."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "ULOmPwAACAAJ",
+                "etag": "x6oVq1BJZe8",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/ULOmPwAACAAJ",
+                "volumeInfo": {
+                    "title": "Hobbit, Or, There And Back Again",
+                    "authors": [
+                        "J. R. R. Tolkien"
+                    ],
+                    "publisher": "Turtleback Books",
+                    "publishedDate": "2002-08-01",
+                    "description": "Bilbo Baggins, a respectable, well-to-do hobbit, lives comfortably in his hobbit-hole until the day the wandering wizard Gandalf chooses him to take part in an adventure from which he may never return.",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "0613907256"
+                        },
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9780613907255"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 365,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Juvenile Fiction"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "preview-1.0.0",
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=ULOmPwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=ULOmPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=ULOmPwAACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&cd=6&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=ULOmPwAACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/Hobbit_Or_There_And_Back_Again.html?hl=&id=ULOmPwAACAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "NO_PAGES",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=ULOmPwAACAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "NONE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "Bilbo Baggins, a respectable, well-to-do hobbit, lives comfortably in his hobbit-hole until the day the wandering wizard Gandalf chooses him to take part in an adventure from which he may never return."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "l3tSzQEACAAJ",
+                "etag": "MKuI+aQxRnM",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/l3tSzQEACAAJ",
+                "volumeInfo": {
+                    "title": "The Hobbit",
+                    "authors": [
+                        "J.r.r. Tolkien"
+                    ],
+                    "publisher": "HarperCollins",
+                    "publishedDate": "2020-04-16",
+                    "description": "This is the story of how a Baggins had an adventure, and found himself doing and saying things altogether unexpected... Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely travelling further than the pantry of his hobbit-hole in Bag End. But his contentment is disturbed when the wizard, Gandalf, and a company of thirteen dwarves arrive on his doorstep one day, to whisk him away on a journey 'there and back again'. They have a plot to raid the treasure hoard of Smaug the Magnificent, a large and very dangerous dragon... The prelude to THE LORD OF THE RINGS, THE HOBBIT has sold many millions of copies since its publication in 1937, establishing itself as one of the most beloved and influential books of the twentieth century.",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "0008376050"
+                        },
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9780008376055"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 336,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Hobbits (Fictitious characters)"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "preview-1.0.0",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=l3tSzQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=l3tSzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=l3tSzQEACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&cd=7&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=l3tSzQEACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit.html?hl=&id=l3tSzQEACAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "NO_PAGES",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=l3tSzQEACAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "NONE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "This is the story of how a Baggins had an adventure, and found himself doing and saying things altogether unexpected."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "rIqOaeTx074C",
+                "etag": "ilgTEtD9Du0",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/rIqOaeTx074C",
+                "volumeInfo": {
+                    "title": "The Hobbit (Enhanced Edition)",
+                    "authors": [
+                        "J. R. R. Tolkien"
+                    ],
+                    "publisher": "HarperCollins UK",
+                    "publishedDate": "2011-11-18",
+                    "description": "Exclusive to this Enhanced version of the eBook are recently discovered audio recordings by J.R.R. Tolkien, and new high-resolution colour images of all of Tolkien\u2019s illustrations for the book, many of which are also included in their earlier black-and-white versions and can be revealed by a simple swipe of the screen.",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9780007425389"
+                        },
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "0007425384"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": true,
+                        "image": false
+                    },
+                    "pageCount": 302,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Fiction"
+                    ],
+                    "averageRating": 5,
+                    "ratingsCount": 7,
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": true,
+                    "contentVersion": "1.4.5.0.preview.2",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=rIqOaeTx074C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=rIqOaeTx074C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=rIqOaeTx074C&printsec=frontcover&dq=The+Hobbit:+or+There+and+Back+Again&hl=&cd=8&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=rIqOaeTx074C&dq=The+Hobbit:+or+There+and+Back+Again&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit_Enhanced_Edition.html?hl=&id=rIqOaeTx074C"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "PARTIAL",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": true,
+                        "acsTokenLink": "http://books.google.co.in/books/download/The_Hobbit_Enhanced_Edition-sample-epub.acsm?id=rIqOaeTx074C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=rIqOaeTx074C&hl=&source=gbs_api",
+                    "accessViewStatus": "SAMPLE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "Exclusive to this Enhanced version of the eBook are recently discovered audio recordings by J.R.R. Tolkien, and new high-resolution colour images of all of Tolkien\u2019s illustrations for the book, many of which are also included in their ..."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "Fse0EAAAQBAJ",
+                "etag": "B+sZz4kiUPI",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/Fse0EAAAQBAJ",
+                "volumeInfo": {
+                    "title": "The Hobbit Illustrated by the Author",
+                    "authors": [
+                        "J. R. R. Tolkien"
+                    ],
+                    "publisher": "HarperCollins",
+                    "publishedDate": "2023-09-19",
+                    "description": "For the first time ever, a special enhanced edition of the enchanting prelude to The Lord of the Rings, illustrated throughout with over 50 sketches, drawings, paintings and maps by J.R.R. Tolkien himself. Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely travelling further than the pantry of his hobbit-hole in Bag End. But his contentment is disturbed when the wizard, Gandalf, and a company of thirteen dwarves arrive on his doorstep one day to whisk him away on an unexpected journey \u2018there and back again.\u2019 They have a plot to raid the treasure hoard of Smaug the Magnificent, a large and very dangerous dragon . . . Written for J.R.R. Tolkien\u2019s own children, The Hobbit was published on 21 September 1937. With a beautiful cover design, a handful of black & white drawings and two maps by the author himself, the book became an instant success and was reprinted shortly afterwards with five color plates. Tolkien\u2019s own selection of finished paintings and drawings have become inseparable from his text, adorning editions of The Hobbit for more than 85 years. But the published art has afforded only a glimpse of Tolkien\u2019s creative process, and many additional sketches, colored drawings and maps \u2013 although exhibited and published elsewhere \u2013 have never appeared within the pages of The Hobbit. In this unique enhanced edition of Tolkien\u2019s enchanting classic tale, the full panoply of his art is reproduced for the first time, presenting more than 50 illustrations to accompany Bilbo Baggins on his adventure \u2018there and back again.\u2019",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9780063347540"
+                        },
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "0063347547"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": true,
+                        "image": false
+                    },
+                    "pageCount": 396,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Fiction"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": true,
+                    "contentVersion": "1.2.2.0.preview.2",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=Fse0EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=Fse0EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=Fse0EAAAQBAJ&printsec=frontcover&dq=The+Hobbit:+or+There+and+Back+Again&hl=&cd=9&source=gbs_api",
+                    "infoLink": "https://play.google.com/store/books/details?id=Fse0EAAAQBAJ&source=gbs_api",
+                    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Fse0EAAAQBAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "FOR_SALE",
+                    "isEbook": true,
+                    "listPrice": {
+                        "amount": 3851.32,
+                        "currencyCode": "INR"
+                    },
+                    "retailPrice": {
+                        "amount": 3851.32,
+                        "currencyCode": "INR"
+                    },
+                    "buyLink": "https://play.google.com/store/books/details?id=Fse0EAAAQBAJ&rdid=book-Fse0EAAAQBAJ&rdot=1&source=gbs_api",
+                    "offers": [
+                        {
+                            "finskyOfferType": 1,
+                            "listPrice": {
+                                "amountInMicros": 3851320000,
+                                "currencyCode": "INR"
+                            },
+                            "retailPrice": {
+                                "amountInMicros": 3851320000,
+                                "currencyCode": "INR"
+                            }
+                        }
+                    ]
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "PARTIAL",
+                    "embeddable": true,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": true,
+                        "acsTokenLink": "http://books.google.co.in/books/download/The_Hobbit_Illustrated_by_the_Author-sample-epub.acsm?id=Fse0EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=Fse0EAAAQBAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "SAMPLE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "In this unique enhanced edition of Tolkien\u2019s enchanting classic tale, the full panoply of his art is reproduced for the first time, presenting more than 50 illustrations to accompany Bilbo Baggins on his adventure \u2018there and back again ..."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "7v8jwgEACAAJ",
+                "etag": "T5vgog21TJ4",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/7v8jwgEACAAJ",
+                "volumeInfo": {
+                    "title": "The Hobbit Or There and Back Again",
+                    "authors": [
+                        "J. R. R. Tolkien"
+                    ],
+                    "publishedDate": "2008",
+                    "industryIdentifiers": [
+                        {
+                            "type": "OTHER",
+                            "identifier": "OCLC:932588314"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 387,
+                    "printType": "BOOK",
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "preview-1.0.0",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=7v8jwgEACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&cd=10&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=7v8jwgEACAAJ&dq=The+Hobbit:+or+There+and+Back+Again&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit_Or_There_and_Back_Again.html?hl=&id=7v8jwgEACAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "NO_PAGES",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=7v8jwgEACAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "NONE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "&#39;The Hobbit&#39; is a tale of high adventure, undertaken by a company of dwarves in search of dragon-guarded gold. A reluctant partner in this perilous quest is Bilbo Baggins, a comfort-loving, unambitious hobbit."
+                }
+            }
+        ]
+    },
+    "Young Wives": {
+        "kind": "books#volumes",
+        "totalItems": 3004,
+        "items": [
+            {
+                "kind": "books#volume",
+                "id": "QJzNBAAAQBAJ",
+                "etag": "QXdCvf8OOwE",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/QJzNBAAAQBAJ",
+                "volumeInfo": {
+                    "title": "Young Wives",
+                    "authors": [
+                        "Olivia Goldsmith"
+                    ],
+                    "publisher": "Diversion Publishing Corp.",
+                    "publishedDate": "2014-10-14",
+                    "description": "Three women unite\u2014and fight back\u2014after their husbands do them wrong, in this tale of \u201cwickedly funny female bonding\u201d by a New York Times\u2013bestselling author (People). Angela, half-Jewish, half-Italian, and all New Yorker, is a lawyer married to Reid, a handsome old-money WASP. Michelle adores her childhood sweetheart husband, Frank, and the dream house he\u2019s provided for her and their two beautiful children. Jada is an African American working mom trying to maintain a happy home, despite her husband Clinton\u2019s failing business. But then, like a bad souffl\u00e9, the lives of these three thirtysomething women collapse as they each discover the truth about their dirty, rotten mates. Uniting for solace and support, they draw on one another\u2019s friendship to heal their wounds. Bowed but not beaten, this smart, audacious trio will concoct a brilliant recipe to take back what\u2019s theirs and serve justice on their duplicitous men\u2014and transform them from victims to victors . . . This is a \u201criotous\u201d tale from the bestselling author of such beloved novels as The First Wives Club and Fashionably Late (USA Today). \u201cChances are good that you\u2019ll like these women and love this book.\u201d \u2014Daily News (New York)",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9781626814417"
+                        },
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "1626814414"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": true,
+                        "image": true
+                    },
+                    "pageCount": 658,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Fiction"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": true,
+                    "contentVersion": "0.8.8.0.preview.3",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=QJzNBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=QJzNBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=QJzNBAAAQBAJ&printsec=frontcover&dq=Young+Wives&hl=&cd=1&source=gbs_api",
+                    "infoLink": "https://play.google.com/store/books/details?id=QJzNBAAAQBAJ&source=gbs_api",
+                    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QJzNBAAAQBAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "FOR_SALE",
+                    "isEbook": true,
+                    "listPrice": {
+                        "amount": 818.92,
+                        "currencyCode": "INR"
+                    },
+                    "retailPrice": {
+                        "amount": 409.46,
+                        "currencyCode": "INR"
+                    },
+                    "buyLink": "https://play.google.com/store/books/details?id=QJzNBAAAQBAJ&rdid=book-QJzNBAAAQBAJ&rdot=1&source=gbs_api",
+                    "offers": [
+                        {
+                            "finskyOfferType": 1,
+                            "listPrice": {
+                                "amountInMicros": 818920000,
+                                "currencyCode": "INR"
+                            },
+                            "retailPrice": {
+                                "amountInMicros": 409460000,
+                                "currencyCode": "INR"
+                            }
+                        }
+                    ]
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "PARTIAL",
+                    "embeddable": true,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": true,
+                        "acsTokenLink": "http://books.google.co.in/books/download/Young_Wives-sample-epub.acsm?id=QJzNBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                    },
+                    "pdf": {
+                        "isAvailable": true,
+                        "acsTokenLink": "http://books.google.co.in/books/download/Young_Wives-sample-pdf.acsm?id=QJzNBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=QJzNBAAAQBAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "SAMPLE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "Three women unite\u2014and fight back\u2014after their husbands do them wrong, in this tale of \u201cwickedly funny female bonding\u201d by a New York Times\u2013bestselling author (People)."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "Lg0SAAAAYAAJ",
+                "etag": "XdXumqyn1Sg",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/Lg0SAAAAYAAJ",
+                "volumeInfo": {
+                    "title": "The Young Wife, Or, Duties of Woman in the Marriage Relation",
+                    "authors": [
+                        "William Andrus Alcott"
+                    ],
+                    "publishedDate": "1837",
+                    "industryIdentifiers": [
+                        {
+                            "type": "OTHER",
+                            "identifier": "HARVARD:32044004813085"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": true
+                    },
+                    "pageCount": 398,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Asylums"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "4.3.5.0.full.1",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=Lg0SAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=Lg0SAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=Lg0SAAAAYAAJ&printsec=frontcover&dq=Young+Wives&hl=&cd=2&source=gbs_api",
+                    "infoLink": "https://play.google.com/store/books/details?id=Lg0SAAAAYAAJ&source=gbs_api",
+                    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Lg0SAAAAYAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "FREE",
+                    "isEbook": true,
+                    "buyLink": "https://play.google.com/store/books/details?id=Lg0SAAAAYAAJ&rdid=book-Lg0SAAAAYAAJ&rdot=1&source=gbs_api"
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "ALL_PAGES",
+                    "embeddable": true,
+                    "publicDomain": true,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false,
+                        "downloadLink": "http://books.google.co.in/books/download/The_Young_Wife_Or_Duties_of_Woman_in_the.epub?id=Lg0SAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                    },
+                    "pdf": {
+                        "isAvailable": true,
+                        "downloadLink": "http://books.google.co.in/books/download/The_Young_Wife_Or_Duties_of_Woman_in_the.pdf?id=Lg0SAAAAYAAJ&hl=&output=pdf&sig=ACfU3U1lXptYdOlURz1aAyjwen90kcCHdg&source=gbs_api"
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=Lg0SAAAAYAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                    "quoteSharingAllowed": false
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "kih2QgAACAAJ",
+                "etag": "DklDs7cIL4w",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/kih2QgAACAAJ",
+                "volumeInfo": {
+                    "title": "Young Wives' Tales",
+                    "subtitle": "New Adventures in Love and Partnership",
+                    "authors": [
+                        "Jill Corral",
+                        "Lisa Miya-Jervis"
+                    ],
+                    "publisher": "Seal Press (CA)",
+                    "publishedDate": "2001",
+                    "description": "Featuring such contributors as Juhu Thukral, Rachel Fudge, Kristy Harcourt, and Leslie Miller, a powerful collection of essays defines what it means to be a spouse in today's society, from a woman trying to cope with being identified as half of a couple to a woman who is attempting to balance a career and motherhood. Original. First serial to salon.com.",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "1580050506"
+                        },
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9781580050500"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 287,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Family & Relationships"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "preview-1.0.0",
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=kih2QgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=kih2QgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=kih2QgAACAAJ&dq=Young+Wives&hl=&cd=3&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=kih2QgAACAAJ&dq=Young+Wives&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/Young_Wives_Tales.html?hl=&id=kih2QgAACAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "NO_PAGES",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=kih2QgAACAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "NONE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "Original. First serial to salon.com."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "--cnAAAAYAAJ",
+                "etag": "e5DwUhwIf/0",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/--cnAAAAYAAJ",
+                "volumeInfo": {
+                    "title": "The Young Wife",
+                    "authors": [
+                        "William Andrus Alcott"
+                    ],
+                    "publishedDate": "1838",
+                    "industryIdentifiers": [
+                        {
+                            "type": "OTHER",
+                            "identifier": "UVA:X000386010"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": true
+                    },
+                    "pageCount": 402,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Married women"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "0.4.6.0.full.1",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=--cnAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=--cnAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=--cnAAAAYAAJ&printsec=frontcover&dq=Young+Wives&hl=&cd=4&source=gbs_api",
+                    "infoLink": "https://play.google.com/store/books/details?id=--cnAAAAYAAJ&source=gbs_api",
+                    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=--cnAAAAYAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "FREE",
+                    "isEbook": true,
+                    "buyLink": "https://play.google.com/store/books/details?id=--cnAAAAYAAJ&rdid=book---cnAAAAYAAJ&rdot=1&source=gbs_api"
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "ALL_PAGES",
+                    "embeddable": true,
+                    "publicDomain": true,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false,
+                        "downloadLink": "http://books.google.co.in/books/download/The_Young_Wife.epub?id=--cnAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                    },
+                    "pdf": {
+                        "isAvailable": true,
+                        "downloadLink": "http://books.google.co.in/books/download/The_Young_Wife.pdf?id=--cnAAAAYAAJ&hl=&output=pdf&sig=ACfU3U19RstBYx79STrOtr5Ze6OdTBquQQ&source=gbs_api"
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=--cnAAAAYAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                    "quoteSharingAllowed": false
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "Nqn0xgEACAAJ",
+                "etag": "LsI86rv6QEg",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/Nqn0xgEACAAJ",
+                "volumeInfo": {
+                    "title": "The Young Wives",
+                    "authors": [
+                        "Elaine Crowley"
+                    ],
+                    "publishedDate": "2002",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "1407226797"
+                        },
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9781407226798"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 407,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Army spouses"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "preview-1.0.0",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=Nqn0xgEACAAJ&dq=Young+Wives&hl=&cd=5&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=Nqn0xgEACAAJ&dq=Young+Wives&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/The_Young_Wives.html?hl=&id=Nqn0xgEACAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "NO_PAGES",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=Nqn0xgEACAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "NONE",
+                    "quoteSharingAllowed": false
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "OcaOAAAAIAAJ",
+                "etag": "javYxSQcAAY",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/OcaOAAAAIAAJ",
+                "volumeInfo": {
+                    "title": "The Young Wife",
+                    "subtitle": "Or, Duties of Woman in the Marriage Relation",
+                    "authors": [
+                        "William Andrus Alcott"
+                    ],
+                    "publisher": "New York : Arno Press, 1972 [c1837]",
+                    "publishedDate": "1972",
+                    "industryIdentifiers": [
+                        {
+                            "type": "OTHER",
+                            "identifier": "STANFORD:36105034906458"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 492,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Social Science"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "0.4.1.0.preview.0",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=OcaOAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=OcaOAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=OcaOAAAAIAAJ&q=Young+Wives&dq=Young+Wives&hl=&cd=6&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=OcaOAAAAIAAJ&dq=Young+Wives&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/The_Young_Wife.html?hl=&id=OcaOAAAAIAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "NO_PAGES",
+                    "embeddable": false,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=OcaOAAAAIAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "NONE",
+                    "quoteSharingAllowed": false
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "bzYTDgAAQBAJ",
+                "etag": "lhYk8DetGlY",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/bzYTDgAAQBAJ",
+                "volumeInfo": {
+                    "title": "The Young Wives Club",
+                    "subtitle": "A Novel",
+                    "authors": [
+                        "Julie Pennell"
+                    ],
+                    "publisher": "Simon and Schuster",
+                    "publishedDate": "2017-02-14",
+                    "description": "Toulouse, Louisiana. Laura Landry's quarterback husband was her ticket out, but after a devastating football injury Brian starts drinking instead of rehabbing his knee. Madison Blanchette waited for bad-boy musician Cash Romero to commit; when wealthy George Dubois asks her out, she figures she may as well wait in style. Claire Thibodeaux doesn't want to end up like her single parent mom, but as her pastor husband Gavin starts spending late nights at work she fears history is about to repeat itself. Gabrielle Vaughn never thought she'd end up with someone like Tony Ford, son of a prominent congressman, but how do you tell the love of your life that everything she told him was a lie? Four women... and no easy answers in matters of the heart.",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9781501136467"
+                        },
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "1501136461"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": false
+                    },
+                    "pageCount": 320,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Fiction"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "0.3.3.0.preview.0",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=bzYTDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=bzYTDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=bzYTDgAAQBAJ&printsec=frontcover&dq=Young+Wives&hl=&cd=7&source=gbs_api",
+                    "infoLink": "http://books.google.co.in/books?id=bzYTDgAAQBAJ&dq=Young+Wives&hl=&source=gbs_api",
+                    "canonicalVolumeLink": "https://books.google.com/books/about/The_Young_Wives_Club.html?hl=&id=bzYTDgAAQBAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "NOT_FOR_SALE",
+                    "isEbook": false
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "PARTIAL",
+                    "embeddable": true,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                    "epub": {
+                        "isAvailable": false
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=bzYTDgAAQBAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "SAMPLE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "Toulouse, Louisiana."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "ci4zUNr3xusC",
+                "etag": "S5ViUsLUdNg",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/ci4zUNr3xusC",
+                "volumeInfo": {
+                    "title": "Young Wives' Tales",
+                    "subtitle": "A compelling story of modern day marriage from the author of BOTH OF YOU",
+                    "authors": [
+                        "Adele Parks"
+                    ],
+                    "publisher": "Hachette UK",
+                    "publishedDate": "2012-03-29",
+                    "description": "If you loved reading the mesmerising tale of Daisy and Simon's marriage and secrets in Just My Luck from No. 1 Sunday Times bestselling author Adele Parks, you won't want to miss Lucy, Rose and Connie's story in Young Wives' Tales. Don't miss Adele's latest gripping novel, Both of You, out now! And look for One Last Secret, coming soon. ......................................... WHAT HAPPENS AFTER HAPPILY EVER AFTER? Young Wives' Tales is the stylish, insightful sequel to Playing Away. Lucy, Rose and Connie are back in a novel which is every bit as addictive as Adele's debut bestseller and follows the friends' fortunes in their new roles as wives, mothers and lovers with plenty of surprises along the way... Rose thought she had it all, but her perfect life crumbled when her so-called friend seduced her husband and destroyed her marriage. Now Rose is left without any passion, romance or plans for the future... Lucy believed she finally had her fairy-tale ending, but being the wife isn't half as glamorous as being the mistress. When excitement and thrills give way to more chat about cleaning and the kids, it's not very...her. They desperately envy Connie: happily married, effortlessly juggling two children and a fulfilling career. Connie has found genuine contentment. Until, that is, a dangerous old flame flickers back into view... Will she be tempted to play with fire again? ......................................... What readers are saying about Young Wives' Tales: 'Adele has a knack for putting her finger on our fears and vulnerabilities, our dark sides, our hopes and expectations in love and friendship, and keeping the characters 'human'. Her language is quick, sharp and thoroughly engrossing' 'Loved it! The writing style is quirky and funny - I couldn't put it down. I would say that this is one of Parks' best books in a long time'",
+                    "industryIdentifiers": [
+                        {
+                            "type": "ISBN_13",
+                            "identifier": "9780755394593"
+                        },
+                        {
+                            "type": "ISBN_10",
+                            "identifier": "0755394593"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": true,
+                        "image": false
+                    },
+                    "pageCount": 431,
+                    "printType": "BOOK",
+                    "categories": [
+                        "Fiction"
+                    ],
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": true,
+                    "contentVersion": "2.12.13.0.preview.2",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=ci4zUNr3xusC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=ci4zUNr3xusC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=ci4zUNr3xusC&printsec=frontcover&dq=Young+Wives&hl=&cd=8&source=gbs_api",
+                    "infoLink": "https://play.google.com/store/books/details?id=ci4zUNr3xusC&source=gbs_api",
+                    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ci4zUNr3xusC"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "FOR_SALE",
+                    "isEbook": true,
+                    "listPrice": {
+                        "amount": 500.32,
+                        "currencyCode": "INR"
+                    },
+                    "retailPrice": {
+                        "amount": 250.16,
+                        "currencyCode": "INR"
+                    },
+                    "buyLink": "https://play.google.com/store/books/details?id=ci4zUNr3xusC&rdid=book-ci4zUNr3xusC&rdot=1&source=gbs_api",
+                    "offers": [
+                        {
+                            "finskyOfferType": 1,
+                            "listPrice": {
+                                "amountInMicros": 500320000,
+                                "currencyCode": "INR"
+                            },
+                            "retailPrice": {
+                                "amountInMicros": 250160000,
+                                "currencyCode": "INR"
+                            }
+                        }
+                    ]
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "PARTIAL",
+                    "embeddable": true,
+                    "publicDomain": false,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": true,
+                        "acsTokenLink": "http://books.google.co.in/books/download/Young_Wives_Tales-sample-epub.acsm?id=ci4zUNr3xusC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=ci4zUNr3xusC&hl=&source=gbs_api",
+                    "accessViewStatus": "SAMPLE",
+                    "quoteSharingAllowed": false
+                },
+                "searchInfo": {
+                    "textSnippet": "If you loved reading the mesmerising tale of Daisy and Simon&#39;s marriage and secrets in Just My Luck from No. 1 Sunday Times bestselling author Adele Parks, you won&#39;t want to miss Lucy, Rose and Connie&#39;s story in Young Wives&#39; Tales."
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "GNPAfpWveDAC",
+                "etag": "1S1GIntvr9M",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/GNPAfpWveDAC",
+                "volumeInfo": {
+                    "title": "The Young Wife's and Mother's Book. Advice to Mothers on the Management of Their Offspring During the Periods of Infancy, Childhood and Youth; Advice to Young Wives on the Management of Themselves During the Periods of Pregnancy and Lactation",
+                    "authors": [
+                        "Pye Henry Chavasse"
+                    ],
+                    "publishedDate": "1861",
+                    "industryIdentifiers": [
+                        {
+                            "type": "OTHER",
+                            "identifier": "NLS:V000557337"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": true
+                    },
+                    "pageCount": 284,
+                    "printType": "BOOK",
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "0.0.1.0.full.1",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=GNPAfpWveDAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=GNPAfpWveDAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=GNPAfpWveDAC&printsec=frontcover&dq=Young+Wives&hl=&cd=9&source=gbs_api",
+                    "infoLink": "https://play.google.com/store/books/details?id=GNPAfpWveDAC&source=gbs_api",
+                    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=GNPAfpWveDAC"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "FREE",
+                    "isEbook": true,
+                    "buyLink": "https://play.google.com/store/books/details?id=GNPAfpWveDAC&rdid=book-GNPAfpWveDAC&rdot=1&source=gbs_api"
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "ALL_PAGES",
+                    "embeddable": true,
+                    "publicDomain": true,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false,
+                        "downloadLink": "http://books.google.co.in/books/download/The_Young_Wife_s_and_Mother_s_Book_Advic.epub?id=GNPAfpWveDAC&hl=&output=epub&source=gbs_api"
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=GNPAfpWveDAC&hl=&source=gbs_api",
+                    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                    "quoteSharingAllowed": false
+                }
+            },
+            {
+                "kind": "books#volume",
+                "id": "bSVlAAAAcAAJ",
+                "etag": "Xy4Y7MAZMDA",
+                "selfLink": "https://www.googleapis.com/books/v1/volumes/bSVlAAAAcAAJ",
+                "volumeInfo": {
+                    "title": "The Young Wife's and Mother's Book. Advice to Mothers on the Management of Their Offspring ... Advice to Young Wives on the Management of Themselves During the Periods of Pregnancy and Lactation ... Second Edition, Considerably Enlarged and Improved",
+                    "authors": [
+                        "Pye Henry CHAVASSE"
+                    ],
+                    "publishedDate": "1842",
+                    "industryIdentifiers": [
+                        {
+                            "type": "OTHER",
+                            "identifier": "BL:A0020675600"
+                        }
+                    ],
+                    "readingModes": {
+                        "text": false,
+                        "image": true
+                    },
+                    "pageCount": 176,
+                    "printType": "BOOK",
+                    "maturityRating": "NOT_MATURE",
+                    "allowAnonLogging": false,
+                    "contentVersion": "0.3.6.0.full.1",
+                    "panelizationSummary": {
+                        "containsEpubBubbles": false,
+                        "containsImageBubbles": false
+                    },
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=bSVlAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                        "thumbnail": "http://books.google.com/books/content?id=bSVlAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                    },
+                    "language": "en",
+                    "previewLink": "http://books.google.co.in/books?id=bSVlAAAAcAAJ&printsec=frontcover&dq=Young+Wives&hl=&cd=10&source=gbs_api",
+                    "infoLink": "https://play.google.com/store/books/details?id=bSVlAAAAcAAJ&source=gbs_api",
+                    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=bSVlAAAAcAAJ"
+                },
+                "saleInfo": {
+                    "country": "IN",
+                    "saleability": "FREE",
+                    "isEbook": true,
+                    "buyLink": "https://play.google.com/store/books/details?id=bSVlAAAAcAAJ&rdid=book-bSVlAAAAcAAJ&rdot=1&source=gbs_api"
+                },
+                "accessInfo": {
+                    "country": "IN",
+                    "viewability": "ALL_PAGES",
+                    "embeddable": true,
+                    "publicDomain": true,
+                    "textToSpeechPermission": "ALLOWED",
+                    "epub": {
+                        "isAvailable": false,
+                        "downloadLink": "http://books.google.co.in/books/download/The_Young_Wife_s_and_Mother_s_Book_Advic.epub?id=bSVlAAAAcAAJ&hl=&output=epub&source=gbs_api"
+                    },
+                    "pdf": {
+                        "isAvailable": false
+                    },
+                    "webReaderLink": "http://play.google.com/books/reader?id=bSVlAAAAcAAJ&hl=&source=gbs_api",
+                    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                    "quoteSharingAllowed": false
+                }
+            }
+        ]
     }
 }

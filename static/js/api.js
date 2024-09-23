@@ -3,7 +3,10 @@ import simpleCache from "./caching.js";
 
 const timer = (ms) =>
   new Promise((resolve, reject) =>
-    setTimeout(() => reject("Response Timeout!! Internet Connection too slow"), ms)
+    setTimeout(
+      () => reject("Response Timeout!! Internet Connection too slow"),
+      ms
+    )
   );
 
 export const getData = async (url, options = null, jsonify = true) => {
@@ -28,7 +31,7 @@ export const getData = async (url, options = null, jsonify = true) => {
 
 export const postData = async (url, data) => {
   try {
-    const file_name = data.file_name;
+    const file_name = data.file_name || data.name;
     const cacheData = simpleCache.get(file_name);
     if (cacheData) {
       return cacheData;

@@ -118,7 +118,6 @@ export const navScroller = () => {
       const target = e.target.closest(".nav-link");
       if (!target) return;
       e.preventDefault();
-      console.log(target);
       scrollHandler(target);
     });
   });

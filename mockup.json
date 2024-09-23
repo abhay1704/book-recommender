@@ -136,5 +136,20 @@
     },
     "mockup_Harry Potter and the Goblet of Fire": {
         "file_path": "../dist/mockup_Harry Potter and the Goblet of Fire.png"
+    },
+    "mockup_Harry Potter and the Sorcerer's Stone (Harry Potter, Book 1)": {
+        "file_path": "../dist/mockup_Harry Potter and the Sorcerer's Stone (Harry Potter, Book 1).png"
+    },
+    "mockup_Harry Potter and the Goblet of Fire (Harry Potter, Book 4)": {
+        "file_path": "../dist/mockup_Harry Potter and the Goblet of Fire (Harry Potter, Book 4).png"
+    },
+    "mockup_Harry Potter and the Order of the Phoenix (Harry Potter, Book 5)": {
+        "file_path": "../dist/mockup_Harry Potter and the Order of the Phoenix (Harry Potter, Book 5).png"
+    },
+    "mockup_The Hobbit, Or, There and Back Again": {
+        "file_path": "../dist/mockup_The Hobbit, Or, There and Back Again.png"
+    },
+    "mockup_Young Wives": {
+        "file_path": "../dist/mockup_Young Wives.png"
     }
 }
