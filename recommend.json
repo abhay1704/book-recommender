@@ -1,0 +1,299 @@
+{
+    "Neverwhere": {
+        "Northern Lights (His Dark Materials S.)": {
+            "author": "Philip Pullman",
+            "publisher": "Scholastic Point",
+            "image": "http://images.amazon.com/images/P/0590660543.01.MZZZZZZZ.jpg"
+        },
+        "Portrait in Sepia": {
+            "author": "Isabel Allende",
+            "publisher": "HarperCollins Publishers",
+            "image": "http://images.amazon.com/images/P/0066211611.01.MZZZZZZZ.jpg"
+        },
+        "The Wasp Factory": {
+            "author": "Iain Banks",
+            "publisher": "Abacus",
+            "image": "http://images.amazon.com/images/P/0349101779.01.MZZZZZZZ.jpg"
+        },
+        "A Game of Thrones (A Song of Ice and Fire, Book 1)": {
+            "author": "George R.R. Martin",
+            "publisher": "Spectra Books",
+            "image": "http://images.amazon.com/images/P/0553573403.01.MZZZZZZZ.jpg"
+        },
+        "Illusions: The Adventures of a Reluctant Messiah": {
+            "author": "Richard Bach",
+            "publisher": "Dell Publishing Company",
+            "image": "http://images.amazon.com/images/P/0440204887.01.MZZZZZZZ.jpg"
+        }
+    },
+    "The Five People You Meet in Heaven": {
+        "Tuesdays with Morrie: An Old Man, a Young Man, and Life's Greatest Lesson": {
+            "author": "MITCH ALBOM",
+            "publisher": "Doubleday",
+            "image": "http://images.amazon.com/images/P/0385484518.01.MZZZZZZZ.jpg"
+        },
+        "In Her Shoes : A Novel": {
+            "author": "Jennifer Weiner",
+            "publisher": "Atria Books",
+            "image": "http://images.amazon.com/images/P/0743418190.01.MZZZZZZZ.jpg"
+        },
+        "Summer Light": {
+            "author": "Luanne Rice",
+            "publisher": "Bantam Books",
+            "image": "http://images.amazon.com/images/P/0553582658.01.MZZZZZZZ.jpg"
+        },
+        "Gone For Good": {
+            "author": "HARLAN COBEN",
+            "publisher": "Delacorte Press",
+            "image": "http://images.amazon.com/images/P/038533558X.01.MZZZZZZZ.jpg"
+        },
+        "Border Music": {
+            "author": "Robert James Waller",
+            "publisher": "Warner Books",
+            "image": "http://images.amazon.com/images/P/0446518581.01.MZZZZZZZ.jpg"
+        }
+    },
+    "The Lovely Bones: A Novel": {
+        "Where the Heart Is (Oprah's Book Club (Paperback))": {
+            "author": "Billie Letts",
+            "publisher": "Warner Books",
+            "image": "http://images.amazon.com/images/P/0446672211.01.MZZZZZZZ.jpg"
+        },
+        "Good in Bed": {
+            "author": "Jennifer Weiner",
+            "publisher": "Washington Square Press",
+            "image": "http://images.amazon.com/images/P/0743418174.01.MZZZZZZZ.jpg"
+        },
+        "The Book of Ruth (Oprah's Book Club (Paperback))": {
+            "author": "Jane Hamilton",
+            "publisher": "Anchor",
+            "image": "http://images.amazon.com/images/P/0385265700.01.MZZZZZZZ.jpg"
+        },
+        "The Bluest Eye": {
+            "author": "Toni Morrison",
+            "publisher": "Knopf",
+            "image": "http://images.amazon.com/images/P/0375411550.01.MZZZZZZZ.jpg"
+        },
+        "Life of Pi": {
+            "author": "Yann Martel",
+            "publisher": "Harvest Books",
+            "image": "http://images.amazon.com/images/P/0156027321.01.MZZZZZZZ.jpg"
+        }
+    },
+    "The Hitchhiker's Guide to the Galaxy": {
+        "Rendezvous with Rama": {
+            "author": "Arthur C. Clarke",
+            "publisher": "Bantam",
+            "image": "http://images.amazon.com/images/P/0553287893.01.MZZZZZZZ.jpg"
+        },
+        "The Hours : A Novel": {
+            "author": "Michael Cunningham",
+            "publisher": "Farrar, Straus and Giroux",
+            "image": "http://images.amazon.com/images/P/0374172897.01.MZZZZZZZ.jpg"
+        },
+        "Pet Sematary": {
+            "author": "Stephen King",
+            "publisher": "Signet Book",
+            "image": "http://images.amazon.com/images/P/0451132378.01.MZZZZZZZ.jpg"
+        },
+        "Good Omens": {
+            "author": "Neil Gaiman",
+            "publisher": "Ace Books",
+            "image": "http://images.amazon.com/images/P/0441003257.01.MZZZZZZZ.jpg"
+        },
+        "Another City, Not My Own: A Novel in the Form of a Memoir": {
+            "author": "Dominick Dunne",
+            "publisher": "Ballantine Books",
+            "image": "http://images.amazon.com/images/P/0345430514.01.MZZZZZZZ.jpg"
+        }
+    },
+    "Outlander": {
+        "Voyager": {
+            "author": "DIANA GABALDON",
+            "publisher": "Dell",
+            "image": "http://images.amazon.com/images/P/0440217563.01.MZZZZZZZ.jpg"
+        },
+        "Drums of Autumn": {
+            "author": "DIANA GABALDON",
+            "publisher": "Dell",
+            "image": "http://images.amazon.com/images/P/044022425X.01.MZZZZZZZ.jpg"
+        },
+        "Dragonfly in Amber": {
+            "author": "DIANA GABALDON",
+            "publisher": "Dell",
+            "image": "http://images.amazon.com/images/P/0440215625.01.MZZZZZZZ.jpg"
+        },
+        "Dangerous to Know": {
+            "author": "Margaret Yorke",
+            "publisher": "Warner Books Inc",
+            "image": "http://images.amazon.com/images/P/0892965002.01.MZZZZZZZ.jpg"
+        },
+        "Fortune's Rocks: A Novel": {
+            "author": "Anita Shreve",
+            "publisher": "Back Bay Books",
+            "image": "http://images.amazon.com/images/P/0316781010.01.MZZZZZZZ.jpg"
+        }
+    },
+    "Nickel and Dimed: On (Not) Getting By in America": {
+        "Jennifer Government : A Novel": {
+            "author": "Max Barry",
+            "publisher": "Doubleday",
+            "image": "http://images.amazon.com/images/P/0385507593.01.MZZZZZZZ.jpg"
+        },
+        "The Glass Lake": {
+            "author": "Maeve Binchy",
+            "publisher": "Dell",
+            "image": "http://images.amazon.com/images/P/0440221595.01.MZZZZZZZ.jpg"
+        },
+        "The Lovely Bones: A Novel": {
+            "author": "Alice Sebold",
+            "publisher": "Little, Brown",
+            "image": "http://images.amazon.com/images/P/0316666343.01.MZZZZZZZ.jpg"
+        },
+        "Veronika Decides to Die": {
+            "author": "Paulo Coelho",
+            "publisher": "Perennial",
+            "image": "http://images.amazon.com/images/P/0060955775.01.MZZZZZZZ.jpg"
+        },
+        "Tender at the Bone: Growing Up at the Table": {
+            "author": "Ruth Reichl",
+            "publisher": "Broadway Books",
+            "image": "http://images.amazon.com/images/P/0767903382.01.MZZZZZZZ.jpg"
+        }
+    },
+    "Silence of the Lambs": {
+        "Time Bomb (Alex Delaware Novels (Paperback))": {
+            "author": "Jonathan Kellerman",
+            "publisher": "Bantam Books",
+            "image": "http://images.amazon.com/images/P/055329170X.01.MZZZZZZZ.jpg"
+        },
+        "Body of Evidence": {
+            "author": "Patricia Cornwell",
+            "publisher": "Pocket",
+            "image": "http://images.amazon.com/images/P/0671038567.01.MZZZZZZZ.jpg"
+        },
+        "Patriot Games": {
+            "author": "Tom Clancy",
+            "publisher": "Putnam Publishing Group",
+            "image": "http://images.amazon.com/images/P/0399132414.01.MZZZZZZZ.jpg"
+        },
+        "Red Dragon": {
+            "author": "Thomas Harris",
+            "publisher": "Dell Publishing Company",
+            "image": "http://images.amazon.com/images/P/0440206154.01.MZZZZZZZ.jpg"
+        },
+        "The Vampire Lestat (Vampire Chronicles, Book II)": {
+            "author": "ANNE RICE",
+            "publisher": "Ballantine Books",
+            "image": "http://images.amazon.com/images/P/0345313860.01.MZZZZZZZ.jpg"
+        }
+    },
+    "ANGELA'S ASHES": {
+        "In the Lake of the Woods": {
+            "author": "Tim O'Brien",
+            "publisher": "Penguin Books",
+            "image": "http://images.amazon.com/images/P/0140250948.01.MZZZZZZZ.jpg"
+        },
+        "Bel Canto": {
+            "author": "Ann Patchett",
+            "publisher": "HarperCollins Publishers",
+            "image": "http://images.amazon.com/images/P/0060188731.01.MZZZZZZZ.jpg"
+        },
+        "Plainsong": {
+            "author": "Kent Haruf",
+            "publisher": "Alfred A. Knopf",
+            "image": "http://images.amazon.com/images/P/0375406182.01.MZZZZZZZ.jpg"
+        },
+        "In the Heart of the Sea: The Tragedy of the Whaleship Essex": {
+            "author": "Nathaniel Philbrick",
+            "publisher": "Penguin Putnam",
+            "image": "http://images.amazon.com/images/P/0670891576.01.MZZZZZZZ.jpg"
+        },
+        "Waiting": {
+            "author": "Frank M. Robinson",
+            "publisher": "Tor Books",
+            "image": "http://images.amazon.com/images/P/0812541642.01.MZZZZZZZ.jpg"
+        }
+    },
+    "Seven Up (A Stephanie Plum Novel)": {
+        "Hard Eight : A Stephanie Plum Novel (A Stephanie Plum Novel)": {
+            "author": "Janet Evanovich",
+            "publisher": "St. Martin's Press",
+            "image": "http://images.amazon.com/images/P/0312265859.01.MZZZZZZZ.jpg"
+        },
+        "Four To Score (A Stephanie Plum Novel)": {
+            "author": "Janet Evanovich",
+            "publisher": "St. Martin's Paperbacks",
+            "image": "http://images.amazon.com/images/P/0312966970.01.MZZZZZZZ.jpg"
+        },
+        "High Five (A Stephanie Plum Novel)": {
+            "author": "Janet Evanovich",
+            "publisher": "St. Martin's Paperbacks",
+            "image": "http://images.amazon.com/images/P/0312971346.01.MZZZZZZZ.jpg"
+        },
+        "Three To Get Deadly : A Stephanie Plum Novel (A Stephanie Plum Novel)": {
+            "author": "Janet Evanovich",
+            "publisher": "St. Martin's Paperbacks",
+            "image": "http://images.amazon.com/images/P/0312966091.01.MZZZZZZZ.jpg"
+        },
+        "To the Nines: A Stephanie Plum Novel": {
+            "author": "Janet Evanovich",
+            "publisher": "St. Martin's Press",
+            "image": "http://images.amazon.com/images/P/0312265867.01.MZZZZZZZ.jpg"
+        }
+    },
+    "Harry Potter and the Sorcerer's Stone (Book 1)": {
+        "Harry Potter and the Chamber of Secrets (Book 2)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/0439064864.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Prisoner of Azkaban (Book 3)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/0439136369.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Goblet of Fire (Book 4)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic Paperbacks",
+            "image": "http://images.amazon.com/images/P/0439139600.01.MZZZZZZZ.jpg"
+        },
+        "Harry Potter and the Order of the Phoenix (Book 5)": {
+            "author": "J. K. Rowling",
+            "publisher": "Scholastic",
+            "image": "http://images.amazon.com/images/P/043935806X.01.MZZZZZZZ.jpg"
+        },
+        "The Hobbit: or There and Back Again": {
+            "author": "J.R.R. Tolkien",
+            "publisher": "Houghton Mifflin Company",
+            "image": "http://images.amazon.com/images/P/0618002219.01.MZZZZZZZ.jpg"
+        }
+    },
+    "Fast Food Nation: The Dark Side of the All-American Meal": {
+        "Falling Leaves Brit Edition": {
+            "author": "Adeline Yen Mah",
+            "publisher": "Penguin Putnam~trade",
+            "image": "http://images.amazon.com/images/P/0140265988.01.MZZZZZZZ.jpg"
+        },
+        "The Cat Who Smelled a Rat (Cat Who... (Paperback))": {
+            "author": "Lilian Jackson Braun",
+            "publisher": "Jove Books",
+            "image": "http://images.amazon.com/images/P/0515132268.01.MZZZZZZZ.jpg"
+        },
+        "The Book Borrower: A Novel": {
+            "author": "Alice Mattison",
+            "publisher": "Harpercollins",
+            "image": "http://images.amazon.com/images/P/0688168248.01.MZZZZZZZ.jpg"
+        },
+        "Dracula": {
+            "author": "Bram Stoker",
+            "publisher": "Dorset Press",
+            "image": "http://images.amazon.com/images/P/156619301X.01.MZZZZZZZ.jpg"
+        },
+        "Guns, Germs, and Steel: The Fates of Human Societies": {
+            "author": "Jared Diamond",
+            "publisher": "W. W. Norton &amp; Company",
+            "image": "http://images.amazon.com/images/P/0393317552.01.MZZZZZZZ.jpg"
+        }
+    }
+}

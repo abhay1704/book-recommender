@@ -41,7 +41,7 @@ const setAuthorData = (authors) => {
             res["file_path"] ?? authorData.image;
         });
       }
-      getElement("#about-author .content p").textContent = authorData.bio;
+      getElement("#about-author .content p").innerHTML = authorData.bio;
       getElement(".author-url").href = authorData.url;
     })
     .catch((error) => {
@@ -50,13 +50,42 @@ const setAuthorData = (authors) => {
     });
 };
 
+// Helper function to calculate Jaccard similarity between two strings
+const jaccardSimilarity = (str1, str2) => {
+  const set1 = new Set(str1.toLowerCase().split(" "));
+  const set2 = new Set(str2.toLowerCase().split(" "));
+  const intersection = new Set([...set1].filter(x => set2.has(x)));
+  const union = new Set([...set1, ...set2]);
+  return intersection.size / union.size;
+};
+
+// Function to get the most similar book based on the query
 export const getBook = async (query) => {
   try {
     const url = `${GOOGLE_URL}?q=${query}`;
     const searchData = await getData(url);
-    const shortInfo = searchData.items[0].searchInfo?.textSnippet || "";
-    const bookUrl = searchData.items[0].selfLink;
+
+    // If no items are found, return an error or a placeholder
+    if (!searchData.items || searchData.items.length === 0) {
+      throw new Error("No books found");
+    }
+
+    // Find the book with the most similar title to the query
+    let mostSimilarBook = searchData.items[0];
+    let highestSimilarity = 0;
+
+    searchData.items.forEach((item) => {
+      const similarity = jaccardSimilarity(query, item.volumeInfo.title);
+      if (similarity > highestSimilarity) {
+        highestSimilarity = similarity;
+        mostSimilarBook = item;
+      }
+    });
+
+    const shortInfo = mostSimilarBook.searchInfo?.textSnippet || "";
+    const bookUrl = mostSimilarBook.selfLink;
     const bookData = await getData(bookUrl);
+
     let reccomends;
 
     try {
@@ -80,8 +109,8 @@ export const getBook = async (query) => {
       buyLink: bookData.saleInfo.buyLink,
       previewLink:
         bookData.accessInfo?.webReaderLink || "https://books.google.com/",
-      categories: bookData.volumeInfo.categories.map(
-        (x) => x.split("/").slice(-1)[0]
+      categories: bookData.volumeInfo.categories?.map((x) =>
+        x.split("/").slice(-1)[0].trim()
       ),
       shortInfo,
       reccomends,
@@ -91,6 +120,7 @@ export const getBook = async (query) => {
     throw error;
   }
 };
+
 
 export const setWebpageData = (data) => {
   const {
@@ -119,11 +149,12 @@ export const setWebpageData = (data) => {
   setElementText(".author-name", authors.join(", "));
   setElementText(".short-info", shortInfo.slice(0, 200) + "...");
 
-  getElement(".user-categories").innerHTML = categories
+  getElement(".user-categories").innerHTML = Array.from(new Set(categories))
     .map((x) => `<li>${x}</li>`)
     .join("");
-
-  getElements(".order-link").forEach((element) => (element.href = buyLink));
+  getElements(".order-link").forEach(
+    (element) => (element.href = buyLink || "")
+  );
   getElements(".preview-link").forEach((x) => (x.href = previewLink));
   getElements(".genre").forEach((x) => (x.textContent = genre));
   getElements(".sub-genre").forEach((x) => (x.textContent = subgenre));

@@ -356,7 +356,7 @@ section .about {
 }
 
 .book-name {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
 }
 
 #genre {
@@ -695,6 +695,10 @@ li::before {
     text-align: center;
     padding-top: 5rem;
     margin: auto;
+  }
+
+  a {
+    color: var(--md-sys-color-primary);
   }
 }
 

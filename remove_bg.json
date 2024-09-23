@@ -1,0 +1,17 @@
+{
+    "author_image_J. K. Rowling": {
+        "file_path": "../dist/author_image_J. K. Rowling.png"
+    },
+    "author_image_Harper Lee": {
+        "file_path": "../dist/author_image_Harper Lee.png"
+    },
+    "author_image_Neil Gaiman": {
+        "file_path": "../dist/author_image_Neil Gaiman.png"
+    },
+    "author_image_Eric Schlosser": {
+        "file_path": "../dist/author_image_Eric Schlosser.png"
+    },
+    "author_image_Jared Diamond": {
+        "file_path": "../dist/author_image_Jared Diamond.png"
+    }
+}

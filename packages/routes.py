@@ -6,10 +6,10 @@ from flask import current_app as app
 from . import cache
 from datetime import datetime
 
-__search_cache__ = cache.SimpleCache(10)
-__mockup_cache__ = cache.SimpleCache(20)
-__recommend_cache__ = cache.SimpleCache(20)
-__remove_bg_cache__ = cache.SimpleCache(20)
+__search_cache__ = cache.SimpleCache(80, file_name="search.json")
+__mockup_cache__ = cache.SimpleCache(60,file_name="mockup.json")
+__recommend_cache__ = cache.SimpleCache(50, file_name="recommend.json")
+__remove_bg_cache__ = cache.SimpleCache(60, file_name="remove_bg.json")
 
 
 @app.route('/hi')

@@ -102,15 +102,10 @@ const scrollHandler = (target) => {
   const headerHeight = getElement("header").offsetHeight;
   const screenHeight = window.innerHeight;
 
-  if (
-    targetPosition < window.scrollY ||
-    targetPosition > window.scrollY + screenHeight
-  ) {
     window.scrollTo({
       top: targetPosition - headerHeight,
       behavior: "smooth",
     });
-  }
 };
 
 export const navScroller = () => {
@@ -123,6 +118,7 @@ export const navScroller = () => {
       const target = e.target.closest(".nav-link");
       if (!target) return;
       e.preventDefault();
+      console.log(target);
       scrollHandler(target);
     });
   });
